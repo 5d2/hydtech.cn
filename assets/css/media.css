@@ -1,0 +1,521 @@
+/*：源代码唯一下载地址: https://www.moyublog.com*/
+@media screen and ( max-width:1440px ){
+	.pageNav li{ margin-right: 0.36rem;}
+	.indexPart1 .wal{ width: 15.0rem; }
+	.indexPart2 .wal{ width: 15.0rem; }
+	.indexPart1 .leftDiv{ width: 5.15rem; }
+	.indexPart1 .midDiv{ padding-left: 1.2rem;}
+	.car .list li .msg{ padding: 0 0.3rem; }
+	/*.anli_xiejiao{width: 15.0rem; }*/
+	.sNav{     padding-top: 35px;
+    height: 260px;}
+	
+
+}
+
+@media screen and ( max-width:1004px ){
+	
+	.index-nav{ min-width: 100%;}
+	.index-nav li{ margin-top: 0;}
+	.indexPart1 .wal, .wal2, .wal3, .wal4, .w870{width:100%;}
+	.indexPart1 .wal{ width:100%; }
+	.indexPart2 .wal{ width:100%; }
+	.PC-Box, .w378, .w280, .nav, .ind-banner, .pageBanner, .pageNum, .grayBg{ display:none;}
+	.Phone-Box, .bannerTel, .pageBannerTel, .pageTitleTel, .pageMore{ display:block;}
+    .wal1160 {
+    width: 100%;
+    margin: auto;
+    
+}
+	.part3-left{ width: 100%;}
+	.part3-right{ width: 100%;}
+	.treflip{ width: auto; padding: 0.84rem 0.2rem 1.1rem;}
+	.treflip3{ padding: 0 0.2rem; }
+	.indexTitle .title1{ font-size: 0.48rem; line-height: 0.48rem; text-transform: uppercase; color: #0075cf; }
+	.indexTitle .title2{ font-size: 0.3rem; line-height: 0.3rem; color: #1e1e1e; padding-top: 0.12rem; }
+	.pageTitle{ padding-bottom: 0.5rem; }
+	.pageTitle .title1{ font-size: 0.48rem; }
+	.pageTitle .title2{ font-size: 0.34rem; }
+    .indexPart1 .wal{ width: 100%; }
+	.indexPart1{ background: #fff; padding: 0.75rem 0.2rem 0.3rem; }
+	.indexPart1 .leftDiv{ width: 100%; padding-top: 0; float: none; }
+	.indexPart1 .content{ font-size: 0.22rem; padding-top: 0.4rem; line-height: 0.46rem; }
+	.indexPart1 .btnDiv{ padding-top: 0.35rem; }
+	.indexPart1 .btnDiv a{ text-indent: 0.24rem; width: 2.62rem; height: 0.78rem; line-height: 0.78rem; }
+	.indexPart1 .btnDiv a:after{ top: 0.34rem;}
+	.indexPart1 .midDiv{ width: auto; padding-left: 0; float: none; padding-bottom: 0.4rem;}
+	.indexPart1 .numList{ padding-top: 0.5rem; }
+	.indexPart1 .numList li{ padding-bottom: 0px; float: left; width: 33.33%; text-align: center;}
+	.indexPart1 .numList li .ico img{ width: 0.56rem; }
+	.indexPart1 .numList li .num b{ font-size: 0.48rem; }
+	.indexPart1 .numList li .num em{ font-size: 0.24rem; }
+	.indexPart1 .numList li .msg{ font-size: 0.24rem;}
+	.indexPart1 .rightDiv{ float: none; width: auto; height: auto; position: relative;}
+	.indexPart1 .imgDiv{ width: auto; float: none;}
+	.indexPart1 .imgDiv img{ width: 100%; }
+	.indexPart1 .mxfDiv{ height: 100%; right: 0px; top: 0px; position: absolute; background: rgba(0,117,207,0.5);}
+	.indexPart2{ padding: 0.35rem; margin-top: .5rem;}
+	.oushili{ min-height: 145px;}
+	.oushili p{ width: 100%;}
+	.oushili h3:after{ display: none;}
+	.oushili b{font-size: 0.48rem; left: 0; top: -40px; color: #0075cf;}
+	.anli_xiejiao{ width: 100%;}
+	.anli_xiejiao li{ width: 100%;}
+	.lanbei{display: none;}
+	.anli_xiejiao li .tu{ width: 100%; height: 150px; transform: skew(0deg);  overflow: hidden; margin-bottom: 15px;}
+	.anli_xiejiao .wenzi{ top: 30%;}
+	.huihui{ display: none;}
+	.youshii{ min-height: 500px;}
+	.indexPart2 .indexTitle{ padding-bottom: 0.5rem; }
+	.indexPart2 .bigBox{ padding-bottom: 0;}
+	.indexPart2 .layerDiv{ width: 100%; left: 0; margin-left: 0; top: 1.25rem;}
+	.indexPart2 .layerDiv .name{ font-size: 0.36rem; height: 0.7rem;}
+	.indexPart2 .layerDiv .content{ font-size: 0.24rem; line-height: 0.48rem; padding: 0.5rem 0.2rem 0; height: 1.44rem; }
+	.indexPart2 .layerDiv .more{ padding-top: 0.35rem; width: 2.62rem; }
+	.indexPart2 .layerDiv .more a{ text-indent: 0.24rem; width: 2.62rem; height: 0.78rem; line-height: 0.78rem;  }
+	.indexPart2 .layerDiv .more a:after{ top: 0.34rem; }
+	.indexPart2 .tab2{ padding: 0 0.2rem; position: relative; left: 0; width: auto; margin-left: 0; height: auto;}
+	.indexPart2 .tab2 li{ width: 33.33%; background: #f0f0f0;}
+	.indexPart2 .tab2 .li01{ width: 50%; }
+	.indexPart2 .tab2 .other{ background: #fff; }
+	.indexPart2 .tab2 .liNow{ background: #0075cf; }
+	.indexPart2 .tab2 li .name{ font-size: 0.24rem; }
+	.indexPart2 .tab2 li .txt{ font-size: 0.14rem; }
+	.indexPart3{ padding: 0.4rem 0.2rem 0.7rem; margin-top: .5rem; }
+	.news_swiper li:before{ display: none;}
+	.indexPart3 .leftDiv{ width: 100%; float: none;}
+	.indexProduct .slick{ padding: 0 0 1.22rem 0; width: auto;}
+	.indexProduct .slick .imgDiv img{ width: 4.5rem; }
+	.indexProduct .slick .name{ padding: 0.75rem 0 0 0.42rem; }
+	.indexProduct .slick .msg{ padding: 0.2rem 0 0 0.42rem; line-height: 0.48rem; height: 1.44rem; font-size: 0.24rem; }
+	.indexProduct .slick .btnDiv{ padding: 0.2rem 0 0 0.42rem; }
+	.indexProduct .slick .btnDiv a{ text-indent: 0.24rem; width: 2.62rem; height: 0.78rem; line-height: 0.78rem;  }
+	.indexProduct .slick .btnDiv a:after{ top: 0.34rem; }
+	.indexProduct .slick-prev{ right: 0.96rem; }
+	.indexProduct .slick-next{ right: 0.34rem;  }
+	.indexPart3 .rightDiv{ width: 100%; float: none; }
+	.indexNews{ height: auto;}
+	.indexNews .slick .botDiv{ padding: 0.32rem 0.45rem 0.64rem;}
+	.indexNews .slick .txt{ font-size: 0.24rem; }
+	.indexNews .slick .name{ height: 0.96rem; line-height: 0.48rem; font-size: 0.32rem; color: #000; overflow: hidden; }
+	.indexNews .slick .time{ font-size: 0.24rem; }
+	.indexNews .slick .more{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg107Bg.png) left bottom no-repeat; width: 1.47rem; height: 0.42rem;}
+	.indexNews .slick .more a{ line-height: 0.42rem; font-size: 0.24rem;  }
+	.indexPart4{ padding-bottom: 0.8rem; }
+	.indexPart4 .indexTitle{ padding-bottom: 0.45rem; width: 100%; }
+	.indexPart4 .wal{ width: 100%;}
+	.indexTitle2{ text-align: center;}
+	.aboutLeft{ background: none; padding-top: 0; width: auto; padding-left: 0; height: auto; float: none;}
+	.aboutLeft .name{ font-size: 0.36rem; line-height: 0.36rem; }
+	.aboutLeft .year{ font-size: 0.86rem; line-height: 0.86rem; }
+	.aboutLeft .content{ font-size: 0.24rem; line-height: 0.48rem; padding-bottom: 0.35rem;}
+	.aboutLeft .mxfDiv{ position: relative; height: auto; width: auto; padding-bottom: 0.35rem; background-size: 100%; }
+	.aboutLeft .mxfDiv .imgDiv{ width: 100%; float: none;}
+	.aboutLeft .mxfDiv .layer{ position: relative; right: 0px; width: auto; top: 0; padding: 0.35rem 0 0 0.3rem;}
+	.aboutLeft .mxfDiv .txt{ font-size: 0.6rem; }
+	.aboutLeft .mxfDiv .msg{ font-size: 0.32rem; line-height: 0.48rem; }
+	.aboutRight{ float: none; width: auto; padding-top: 0.5rem; }
+	.aboutRight .toptop .txt{ font-size: 0.44rem; padding-top: 0.2rem; }
+	.aboutRight .toptop .wen{ font-size: 0.24rem; }
+	.aboutRight .botbot{ height: auto; padding-bottom: 6.0rem; background: #eef4fd url(../image/nimg378Bg.jpg) center bottom no-repeat; background-size: 100%;}
+	.aboutRight .list{ padding-top: 0.6rem; }
+	.aboutRight .list li .box{ font-size: 0.24rem; height: 0.75rem; line-height: 0.56rem;}
+	.aboutRight .list li em{ font-size: 0.48rem; }
+	.aboutRight .list li span{ font-size: 0.32rem;}
+	.speechLeft{ width: 100%; padding-left: 0; padding-bottom: 0.4rem;}
+	.speechLeft .name{ font-size: 0.36rem; }
+	.speechLeft .content{ font-size: 0.24rem; line-height: 0.48rem;}
+	.speechRight{ width: 100%; padding-bottom: 0.3rem;}
+	.speechRight .mxfDiv .imgDiv img{ width: 100%; }
+	.speechRight .mxfDiv .name{ font-size: 0.4rem; }
+	.speechRight .mxfDiv .wen{ font-size: 0.26rem; }
+	.speechRight:after{ display: none;}
+	.speechBot{ padding-left: 0; }
+	.speechBot .mxfDiv .layer{ left: 0.8rem; top: 50%; margin-top: -0.48rem; }
+	.speechBot .content{ font-size: 0.24rem; line-height: 0.48rem;}
+	.culturePart1 .leftDiv{ width: 100%; float: none; }
+	.culturePart1 .mxfDiv .layer{ top: 0.25rem; }
+	.culturePart1 .mxfDiv .txt{ font-size: 0.4rem; padding-bottom: 0.1rem;}
+	.culturePart1 .mxfDiv .msg{ line-height: 0.48rem; font-size: 0.24rem;}
+	.culturePart1 .mxfDiv .btnDiv{ padding-top: 0.1rem; width: 2.62rem;}
+	.culturePart1 .mxfDiv .btnDiv a{ text-indent: 0.24rem; width: 2.62rem; height: 0.78rem; line-height: 0.78rem;  }
+	.culturePart1 .mxfDiv .btnDiv a:after{ top: 0.34rem; }
+	.culturePart1 .rightDiv{ display: none;}
+	.culturePart2{ padding: 0.8rem 0.2rem 1.15rem; }
+	.culturePart2 .bigBox{ padding: 0 0 0.7rem 0; height: auto; background-size: 100%; }
+	.culturePart2 .imgDiv{ position: relative;}
+	.culturePart2 .imgDiv img{ width: 100%; }
+	.culturePart2 .txtDiv{ padding: 0.65rem 0 0.2rem; margin: 0 0.4rem; border-bottom: #ff9b00 solid 2px; }
+	.culturePart2 .txt1{ font-size: 0.48rem; }
+	.culturePart2 .txt2{ font-size: 0.34rem;}
+	.culturePart2 .content{ font-size: 0.24rem; line-height: 0.48rem; padding-left: 0.4rem; padding-right: 0.4rem; }
+	.culturePart2 .btnDiv{ padding-left: 0.4rem; }
+	.culturePart2 .btnDiv a{ text-indent: 0.24rem; width: 2.62rem; height: 0.78rem; line-height: 0.78rem;  }
+	.culturePart2 .btnDiv a:after{ top: 0.34rem; }
+	.actTab li a{ height: 1rem; font-size: 0.3rem; line-height: 0.42rem; display: table-cell; vertical-align: middle; width: 3.0rem;}
+	.activity .list ul{ margin-right: -0.1rem; }
+	.activity .list li{ margin-bottom: 0.2rem; }
+	.activity .list li .box{ margin-right: 0.1rem; }
+	.activity .list li .name{ padding: 0 0.24rem; font-size: 0.32rem;}
+	.honor .tab2:before{ display: none;}
+	.honor .tab2 li{ padding-top: 0.25rem; margin-right: 0;  font-size: 0.32rem; width: 25%; text-align: center; }
+	.honor .tab2 .liNow:before{ display: none; }
+	.honor .year{ font-size: 0.32rem; padding-left: 0.34rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg23_1.png) left center no-repeat; background-size: 0.23rem;}
+	.honor .year em{ font-size: 0.42rem;}
+	.honor .list li{ padding-bottom: 0.2rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico4.jpg) left 0.2rem no-repeat; background-size: 0.08rem; line-height: 0.48rem; font-size: 0.24rem;}
+	.park{ height: auto;}
+	.parkLeft{ float: none; width: auto; padding-left: 0; height: auto; background: none; }
+	.parkLeft .content{ font-size: 0.24rem; line-height: 0.48rem; padding-top: 0.1rem;}
+	.parkRight{ display: none;}
+	.parkLeft2{ float: none; width: auto; padding-left: 0; padding-top: 0.6rem; }
+	.parkRight2{ display: none; }
+	.partner .content{ font-size: 0.24rem; line-height: 0.48rem; }
+	.partner .list ul{ margin-right: -0.15rem; }
+	.partner .list li{ width: 50%; margin-bottom: 0.23rem; }
+	.partner .list li .box{ margin-right: 0.15rem; }
+	.researchPart1 .content{ font-size: 0.24rem; line-height: 0.48rem; }
+	.researchPart1 .mxfDiv{ height: auto; padding-left: 0; padding-bottom: 0.5rem; background: url(../image/nimg435Bg.jpg) right bottom no-repeat; background-size: 100%;}
+	.researchPart1 .mxfDiv .imgDiv{ position: relative;  }
+	.researchPart1 .mxfDiv .imgDiv img{ width: 100%; }
+	.researchPart1 .mxfDiv .txt{ font-size: 0.48rem; padding: 0.6rem 0.3rem 0.25rem;}
+	.researchPart1 .mxfDiv .msg{ font-size: 0.34rem; line-height: 0.5rem;  padding: 0 0.3rem; }
+	.researchPart1 .title{ height: 0.48rem; line-height: 0.48rem; padding-left: 0.56rem; font-size: 0.36rem;  }
+	.researchPart1 .title .num{ margin-top: -0.19rem; width: 0.43rem; height: 0.38rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg33_1.png) center no-repeat; background-size: 0.43rem;}
+	.researchPart1 .title .num em{ width: 0.38rem; line-height: 0.38rem; font-size: 0.24rem;}
+	.researchPart1 .bigImg{ padding-top: 0.5rem; }
+	.researchPart1 .bigImg img{ width: 100%; }
+	.researchPart2{ padding: 0.8rem 0.2rem 0.7rem; }
+	.researchPart2 .list li{ margin-bottom: 0.15rem; position: relative; padding-top: 0.55rem; }
+	.researchPart2 .list li .imgDiv{ display: none; }
+	.researchPart2 .list li .box{ padding: 0 0.25rem 0.4rem; height: auto;}
+	.researchPart2 .list .li01 .box{ padding: 0 0.25rem 0.4rem; }
+	.researchPart2 .list li .mxfDiv{ padding-top: 0.4rem; }
+	.researchPart2 .list li .title{ height: 0.48rem; line-height: 0.48rem; padding-left: 0.56rem; font-size: 0.36rem;  }
+	.researchPart2 .list li .title .num{ margin-top: -0.19rem; width: 0.43rem; height: 0.38rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg33_1.png) center no-repeat; background-size: 0.43rem;}
+	.researchPart2 .list li .title .num em{ width: 0.38rem; line-height: 0.38rem; font-size: 0.24rem;}
+	.researchPart2 .list li .content{ font-size: 0.24rem; line-height: 0.48rem; }
+	.researchPart3{ padding: 0.45rem 0.2rem 0.7rem; }
+	.researchPart3 .title{ height: 0.48rem; line-height: 0.48rem; padding-left: 0.56rem; font-size: 0.36rem;  }
+	.researchPart3 .title .num{ margin-top: -0.19rem; width: 0.43rem; height: 0.38rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg33_1.png) center no-repeat; background-size: 0.43rem;}
+	.researchPart3 .title .num em{ width: 0.38rem; line-height: 0.38rem; font-size: 0.24rem;}
+	.researchPart3 .list li{ padding-left: 0.28rem; font-size: 0.24rem; line-height: 0.48rem; padding-bottom: 0.25rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico2on.png) left 0.18rem no-repeat; background-size: 0.1rem; }
+	.making .content{ font-size: 0.24rem; line-height: 0.48rem;  }
+
+    .making .part1 .name{ font-size:0.36rem; line-height:0.6rem;}
+	.making .part1 .content{ font-size:0.24rem; line-height:0.48rem;}
+	.making .part2{ padding:0 .3rem;}
+	.making .part2 .leftDiv{ float:none; width:100%; padding-top:0.9rem;}
+	.making .part2 .txt{ padding-left:0.42rem; font-size:0.28rem;}
+	.making .part2 .txt em{ font-size:0.18rem;}
+	.making .part2 .content{ font-size:0.24rem; line-height:0.48rem; padding:0.35rem 0 0 0;}
+	.making .part2 .rightImg{ width:100%; float:none; padding-top:0.3rem;}
+	.making .part3{ padding:0 0.3rem 1.3rem;}
+	.making .part3 .rightDiv{ width:100%; float:none; padding-top:1.2rem;}
+	.making .part3 .txt{ padding-left:0.42rem; font-size:0.28rem;}
+	.making .part3 .txt em{ font-size:0.18rem;}
+	.making .part3 .content{ font-size:0.24rem; line-height:0.48rem;}
+	.making .part3 .mxfDiv{ padding-left:0;}
+	.making .part3 .leftImg{ width:100%; float:none; padding-top:0.3rem;}
+
+	.news .imgList li{ height: 2.3rem; padding-left: 2.92rem; }
+	.news .imgList li .imgDiv{ left: 0px; top: 0.26rem; }
+	.news .imgList li .imgDiv img{ width: 2.54rem; }
+	.news .imgList li .name{ padding-top: 0.25rem; height: 0.8rem; line-height: 0.4rem; font-size: 0.32rem; }
+	.news .imgList li .content{ display: none; }
+	.news .imgList li .share dd a{ font-size: 0.24rem;}
+	.news .imgList li .share dd img{ width: 0.32rem;}
+	.news .imgList li .time{ font-size: 0.24rem; }
+	.news .list{ padding-bottom: 0.85rem; }
+	.news .list li .name{ height: 0.8rem; line-height: 0.4rem; font-size: 0.32rem; }
+	.news .list li .content{ display: none; }
+	.news .list li .share dd a{ font-size: 0.24rem;}
+	.news .list li .share dd img{ width: 0.32rem; }
+	.news .list li .time{ font-size: 0.24rem; }
+	.newShow{ padding-bottom: 0.5rem;}
+	.newShow .name{ font-size: 0.36rem; padding-bottom: 0.25rem; }
+	.newShow .shu{ padding-bottom: 0.45rem;}
+	.newShow .shu li{ margin-right: 0.2rem; font-size: 0.24rem;}
+	.newShow .shu li img{ padding-right: 0.07rem; width: 0.38rem; }
+	.newShow .content{ padding-top: 0.45rem; font-size: 0.24rem; line-height: 0.48rem; }
+	.newShow .imgDiv{ padding: 0.4rem 0 0.2rem;}
+	.newShow .wen{ padding-bottom: 0.3rem; font-size: 0.32rem;}
+	.newShow .imgDiv img{ width: 100%; }
+	.newShow .content img{ width: 100%; }
+	.pageDown{ padding: 0.4rem 0 0.7rem;}
+	.pageDown li{ font-size: 0.24rem; height: 0.48rem; line-height: 0.48rem;}
+	.pageBtn ul{ margin-right: -0.2rem; }
+	.pageBtn li{ font-size: 0.24rem; }
+	.pageBtn li .box{ margin-right: 0.2rem; }
+	.pageBtn li a{ text-align: center; height: 0.6rem; line-height: 0.6rem; background: #fff; border-radius: 0.24rem; -moz-border-radius: 0.24rem; }
+	.pageBtn li .prev{ text-indent: 0; background: #fff; }
+	.pageBtn li .return{ text-indent: 0; background: #fff; }
+	.pageBtn li .next{ text-indent: 0; background: #fff; }
+	.pageBtn li .prev:hover{ background: #fff;}
+	.pageBtn li .return:hover{ background: #fff;}
+	.pageBtn li .next:hover{ background: #fff;}
+	.wisdomPart1{ padding: 0.85rem 0.2rem 0.08rem; }
+	.wisdomPart1 .pageTitle{ padding-bottom: 0.25rem; }
+	.purpose .content{ font-size: 0.24rem; line-height: 0.48rem;}
+	.service .leftDiv{ width: 100%; float: none; }
+	.service .msgList li{ font-size: 0.26rem; line-height: 0.5rem;}
+	.service .mapDiv{ width: 100%; float: none; padding-top: 0.5rem; }
+	.service .title{ font-size: 0.32rem; height: 0.82rem; line-height: 0.82rem;}
+	.service .list li{ padding: 0.4rem 0; width: 100%; float: none; }
+	.service .list li .box{ padding-left: 0; }
+	.service .list li .name1{ font-size: 0.32rem; line-height: 0.52rem; }
+	.service .list li .name2{ font-size: 0.24rem;  }
+	.service .list dd{ font-size: 0.24rem; line-height: 0.48rem; }
+	.service .list li .btn{ font-size: 0.26rem;}
+	.lyb .part1{ height: auto; background: none; }
+	.lyb .part1 .msg{ font-size: 0.24rem; padding: 0.2rem 0 0.4rem; line-height: 0.48rem;}
+	.lyb .part2{ padding: 0.48rem 0.25rem 0.9rem; }
+	.lyb .form_l{ width: auto; float: none; }
+	.lyb .form_l li{ height: auto; padding-left: 0; padding-bottom: 0.25rem;}
+	.lyb .form_l li .txt{ position: relative; width: 1.8rem; font-size: 0.24rem; line-height: 0.7rem; }
+	.lyb .form_l li .txt img{ margin-top: -0.12rem; width: 0.3rem; }
+	.lyb .form_l li .input1{ width: 100%; height: 0.8rem; line-height: 0.8rem; font-size: 0.24rem; }
+	.lyb .form_r{ width: auto; float: none; }
+	.lyb .form_r .txt{ width: 1.8rem; font-size: 0.24rem; line-height: 0.7rem; height: 0.75rem;}
+	.lyb .form_r .txt img{ top: 0.18rem; width: 0.3rem; }
+	.lyb .form_r .btnGroup a{ width: 1.66rem; height: 0.5rem; line-height: 0.5rem; font-size: 0.24rem; }
+	.join{ background: none;}
+	.join .pageTitle{ padding-bottom: 0.4rem;}
+	.join .txt{ font-size: 0.32rem; }
+	.join .txt img{width: 0.5rem; }
+	.join .list li{  line-height: 0.48rem; font-size: 0.24rem; background: url(../image/nimg10_2.png) left 0.19rem no-repeat; background-size: 0.1rem;}
+	.join .imgList ul{ margin-right: 0; }
+	.join .imgList li{ float: none; width: 100%; margin-bottom: 0.25rem; }
+	.join .imgList li .box{ margin-right: 0;  }
+	.join .imgList li .layer{ position: absolute; left: 0px; top: 50%; margin-top: -0.4rem; height: 0.8rem; width: 100%; text-align: center;}
+	.join .imgList li .name{ color: #fff; font-size: 0.36rem;  }
+	.join .imgList li .name img{ padding-right: 0.1rem; width: 0.42rem; top: -0.03rem; }
+	.join .imgList li .wen{ font-size: 0.32rem; }
+
+    
+.led{ padding:0 10px;}
+.led .phimg{ display:inline-block; width:100%;}
+.led .pcimg{ display:none;}
+.led .text{ font-size:14px; color:#595959;}
+.led .text .look{ margin-top:20px;}
+.led1{ padding-bottom:20px;}
+.led1 .more a{margin-top:20px; width:180px; height:50px; line-height:50px; font-size:14px;}
+.led1 .more a img{ padding-left:10px;}
+.led2{ padding-top:30px; padding-bottom:30px;}
+.led2 .imgDiv{ float:none;}
+.led2 .text{ float:none; width:auto; padding:10px;}
+.led2 h1{ text-align:center; font-size:18px; padding-bottom:20px;}
+.led3{ padding:20px 10px;}
+.led3 .text{ float:none; width:auto; padding:10px;}
+.led3 .imgDiv{ float:none; width:auto;}
+.led4{ padding:20px 10px;}
+.led4 .text{ float:none; width:auto; padding:10px;}
+.led4 .imgDiv{ float:none; width:auto;}
+.led5{ padding-top:20px;}
+.led5 .imgDiv{ float:none;}
+.led5 .text{ float:none; width:auto; padding:10px;}
+.ledlogoph{ display:block; padding:20px 0; text-align:center;}
+.ledlogoph img{ width:50%;}
+
+.carshow1 .listtop{ padding-bottom:0; margin-bottom:20px;}
+.carshow1 .listtop li{ width:auto; float:none; margin-bottom:20px;}
+.carshow1 .listtop li .imgDiv>img{ width:100%;}
+.carshow1 .listtop li .text01{ padding-right:0;}
+.carshow1 .listtop li .text01 h2{ font-size:18px; padding-bottom:10px;}
+.carshow1 .listtop li .text01 p{ font-size:14px;}
+.carshow1 .listtop li .text02{ padding:20px; height:auto;}
+.carshow1 .listtop li .text02 h2{ font-size:18px;}
+.carshow1 .listtop li .text02 p{ font-size:16px; }
+.carshow1 .list ul{ width:auto;}
+.carshow1 .list li{ width:auto; float:none; margin-bottom:20px;}
+.carshow1 .list li .box{ margin-right:0;}
+.carshow1 .list li .name{ display:none;}
+.carshow1 .list li .text{ position:relative; left:auto; top:auto; width:auto; height:auto;background-color:inherit;}
+.carshow1 .list li .text a{padding:0;}
+.carshow1 .list li .text h2{ font-size:18px; padding-bottom:20px; padding-top:20px; color:#0a74d6;}
+.carshow1 .list li .text p{ font-size:14px; color:#606061;}
+
+	.download .list li{ padding: 0.15rem 0.85rem 0.15rem 0.25rem; height: auto;}
+	.download .list li .name{ padding-left: 0.18rem; font-size: 0.3rem; line-height: 0.56rem;}
+	.download .list li .name:before{ top: 0.24rem; margin-top: 0;}
+	.download .list li .time{ position: relative; left: 0; font-size: 0.24rem; line-height: 0.48rem; }
+	.download .list li .more{ right: 0.25rem; margin-top: -0.24rem; }
+	.download .list li .more img{ width: 0.48rem; }
+	.car .toptop{ min-height: 1rem; padding-left: 0; }
+	.car .toptop .imgDiv{ position: relative; }
+	.car .toptop .imgDiv img{ width: 100%; }
+	.car .toptop .txt{ padding-top: 0.45rem; height: 0.7rem; font-size: 0.36rem; }
+	.car .toptop .content{ font-size: 0.24rem; padding-top: 0.35rem; line-height: 0.48rem; }
+	.car .botbot{ padding-top: 0.5rem; }
+	.car .botbot .leftDiv{ width: auto; float:none;}
+	.car .botbot .leftDiv .layer{ left: 0.72rem; top: 0.5rem; }
+	.car .botbot .leftDiv .txt{ font-size: 0.4rem; line-height: 0.54rem; }
+	.car .botbot .leftDiv .wen{ font-size: 0.4rem;}
+	.car .botbot .leftDiv .msg{ font-size: 0.24rem;  }
+	.car .botbot .imgDiv{ width: auto; float: none; }
+	.car .list{ padding-top: 0.48rem; }
+	.car .list ul{ margin-right: 0; }
+	.car .list li{ width: 100%; margin-bottom: 0.3rem;}
+	.car .list li .box{ margin-right: 0; height: auto; padding-bottom: 0.5rem; background-size: 100% 100%; }
+	.car .list li .ico img{ width: 0.96rem; }
+	.car .list li .name{ font-size: 0.3rem; }
+	.car .list li .msg{ padding: 0 0.4rem; }
+	.car .list li .msg p{ line-height: 0.48rem; font-size: 0.24rem; }
+	.automotive .content{ font-size: 0.24rem; padding: 0.1rem 0 0.35rem; line-height: 0.48rem;  }
+	.automotive .mxfDiv .btnDiv{ width: 2.9rem; margin-left: -1.45rem; }
+	.automotive .mxfDiv .btnDiv a{ font-size: 0.24rem; width: 2.86rem; height: 0.68rem; line-height: 0.68rem; }
+	.automotive .mxfDiv .btnDiv a:after{ top: 0.24rem; }
+	.automotive .list{ padding-top: 0.9rem; }
+	.automotive .list li{ position: relative; overflow: hidden; padding-bottom: 0.4rem; margin-bottom: 0.5rem;  }
+	.automotive .list li .imgDiv{ width: auto; float: none; }
+	.automotive .list li .contentBox{ width: auto; float: none; height: auto; }
+	.automotive .list li .name{ font-size: 0.4rem; height: 0.72rem; }
+	.automotive .list li .name:after{ width: 0.52rem; margin-left: -0.26rem;  }
+	.automotive .list li .txt{ font-size: 0.32rem; line-height: 0.56rem; }
+	.automotive .list li .msg{ line-height: 0.56rem; font-size: 0.32rem; padding-bottom: 0.4rem; }
+	.automotive .list li .btnDiv{ position: relative; left: 0; bottom: 0; width: 2.67rem; margin: 0 auto;}
+	.automotive .list li .btnDiv a{ font-size: 0.24rem; width: 2.65rem; height: 0.64rem; line-height: 0.64rem; }
+	.automotive .list li .btnDiv a:after{ top: 0.23rem; }
+	.automotive .list li .btnDiv a:hover:after{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+	.battery .content{ font-size: 0.24rem; padding: 0.1rem 0 0.35rem; line-height: 0.48rem; }
+	.battery .mxfDiv .btnDiv{ width: 2.9rem; margin-left: -1.45rem; }
+	.battery .mxfDiv .btnDiv a{ font-size: 0.24rem; width: 2.86rem; height: 0.68rem; line-height: 0.68rem; text-indent: 0; text-align: center; }
+	.battery .mxfDiv .btnDiv a:after{ display: none;}
+	.battery .title{ font-size: 0.4rem; height: 0.72rem; }
+	.battery .title:after{ width: 0.52rem; margin-left: -0.26rem; }
+	.batteryPic .slick{ margin: 0; }
+	.batteryPic .slick .botbot{ padding: 0.42rem 0; height: auto;}
+	.batteryPic .slick .name{ font-size: 0.32rem;height: 0.48rem; line-height: 0.48rem; }
+	.batteryPic .slick .msg{ font-size: 0.24rem; }
+	.batteryPic .slick-prev{ left: 0; margin-top: -1.42rem; width: 0.84rem; height: 0.84rem;  background-size: 0.84rem; }
+	.batteryPic .slick-next{ right: 0; margin-top: -1.42rem; width: 0.84rem; height: 0.84rem; background-size: 0.84rem;}
+	.batteryPic .slick-prev:hover{ background-size: 0.84rem;}
+	.batteryPic .slick-next:hover{ background-size: 0.84rem;}
+	.batteryPic .slick:hover .name{ color: #0075cf; }
+	.batteryPic .slick:hover .botbot{ border-bottom: #0075cf solid 0.02rem; }
+	.battery .list li{ padding-left: 0; min-height: 1.0rem; }
+	.battery .list .li01{ padding: 0; }
+	.battery .list li .imgDiv{ position: relative; }
+	.battery .list li .imgDiv img{ width: 100%; }
+	.battery .list li .concon{ height: auto; display: block; }
+	.battery .list li .name{ font-size: 0.36rem; padding: 0.3rem 0 0.3rem 0.24rem; }
+	.battery .list li .txt{ font-size: 0.28rem; padding-left: 0.24rem; line-height: 0.48rem; }
+	.battery .list li dd{ padding-left: 0.24rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico5.png) left 0.15rem no-repeat; background-size: 0.12rem; line-height: 0.48rem; font-size: 0.24rem;}
+	.equipment .content{ font-size: 0.24rem; padding: 0.1rem 0 0.35rem; line-height: 0.48rem;  }
+	.equipment .mxfDiv .btnDiv{ width: 2.9rem; margin-left: -1.45rem; }
+	.equipment .mxfDiv .btnDiv a{ font-size: 0.24rem; width: 2.86rem; height: 0.68rem; line-height: 0.68rem; text-indent: 0; text-align: center; }
+	.equipment .mxfDiv .btnDiv a:after{ display: none; }
+	.equipBox li{ padding: 0.56rem 0.2rem 0.88rem;  }
+	.equipBox li .title{ font-size: 0.4rem; height: 0.72rem; }
+	.equipBox li .title:after{ width: 0.52rem; margin-left: -0.26rem; }
+	.equipBox li .limg img{ width: 100%; }
+	.equipBox li .rimg img{ width: 100%; }
+	.hardware .content{ font-size: 0.24rem; padding: 0.1rem 0 0.35rem; line-height: 0.48rem;  }
+	.hardware .mxfDiv .btnDiv{ width: 2.9rem; margin-left: -1.45rem; }
+	.hardware .mxfDiv .btnDiv a{ font-size: 0.24rem; width: 2.86rem; height: 0.68rem; line-height: 0.68rem; text-indent: 0; text-align: center; }
+	.hardware .mxfDiv .btnDiv a:after{ display: none; }
+	.hardware .list li{ padding-left: 0; min-height: 2.0rem; margin-bottom: 0.8rem; }
+	.hardware .list .li01{ padding: 0; }
+	.hardware .list li .imgDiv{ position: relative; left: 0px; top: 0px; }
+	.hardware .list li .imgDiv img{ width: 100%; }
+	.hardware .list li .contentBox{ height: auto; }
+	.hardware .list li .name{ font-size: 0.36rem; padding: 0.3rem 0 0.35rem; }
+	.hardware .list li .name2{ padding: 0.3rem 0 0.35rem;}
+	.hardware .list li .icoList dd{ float: left; width: 25%; margin-right: 0; }
+	.hardware .list li .icoList dd .ico img{ width: 1.3rem; }
+	.hardware .list li .icoList dd .wen{ font-size: 0.24rem; }
+	.hardware .list li .msgList dd{ padding-left: 0.24rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico5.png) left 0.15rem no-repeat; background-size: 0.12rem; line-height: 0.48rem; font-size: 0.24rem;}
+	.hardware .list li .btnDiv{ padding-top: 0.4rem; }
+	.hardware .list li .btnDiv a{ font-size: 0.24rem; width: 2.65rem; height: 0.64rem; line-height: 0.64rem; }
+	.hardware .list li .btnDiv a:after{ top: 0.23rem; }
+	.hardware .list li .btnDiv a:hover:after{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+	.historyBg{ height:1rem;}
+	.historyList{ height:1rem; background:url(https://www.moyublog.com/2021/7/umuhs10688/images/bg3.jpg) left 0.54rem repeat-x; padding:0 1.05rem;}
+	.historyList .slick-slide{ padding-top: 0.55rem; height:0.45rem; font-size:0.4rem; background-size: 0.28rem; }
+	.historyList .slickon{ background-size: 0.28rem;}
+	.history .contentBox{ padding-top:0.6rem; background:url(https://www.moyublog.com/2021/7/umuhs10688/images/line4.jpg) 0.04rem repeat-y;}
+	.history .contentBox li{ padding-left:1.8rem; min-height:1.0rem;}
+	.history .contentBox li .month{ width:1.51rem; height:0.4rem; background-size: 1.51rem; font-size:0.3rem; text-indent: 0.62rem; line-height:0.4rem; }
+	.history .contentBox li .content{ font-size:0.24rem; line-height:0.48rem;}
+    
+/*è?á|×ê?′-é??á?D??*/
+.jobPage1{ margin: 0 0 0; padding: 34px 0 60px; }
+.jobPage1 .title4{ display: none; }
+.job .job-select-box .search { background-size: 19px; } 
+.job .job-select-box  .search input {
+    width: 68%;
+    height: 35px;
+    line-height: 35px;
+    padding: 4px 3%;
+}
+.job .job-select-box  .AllSearchIco {
+    margin-left: 24%;
+    width: 73.5%;
+}
+.job .job-select-box  .AllSearchIco {
+    width: 79%;
+    margin-top: 23px;
+    padding: 0 1px;
+    margin-left: 18%;
+}
+.job .job-select-box  .AllSearchIco {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background: #00a0e9;
+    border-radius: 1px;
+    width: 60px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    margin-left: 12px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+    .job {
+    margin-top:0px;}
+        .job .pageTitle {
+            display:none
+        }
+.jobList{ margin:0px 10px;}
+.jobList li{  padding: 18px 0 50px; margin-bottom: 12px; }
+.jobList li .tit{ position: static; padding: 0 14% 0 6% ; width: auto; border-right: none; font-size: 18px; }
+.jobList li .tit em{ width: 13px; height: 2px; }
+.jobList li .text{ padding: 0 6% 0; }
+.jobList li .text .con1{ display: block; }
+.jobList li .bottom{ width: 14%; height: 46px; }
+.jobList li.on .minor{ margin-top: 22px; }
+.jobPage1 .numberBox{ margin-top: 45px;  }
+.culturetitle{ font-size:18px; color:#0a74d6; padding-bottom:20px; text-align:center;}
+.culturetow1 li{ margin-bottom:10px;}
+.culturetow1 li .txt{top:0; background-color:rgba(0,0,0,0.3);}
+.culturetow1 li .text{ display:none;}
+.culturetow1 li .imgDiv .name{ display:none;}
+.culturetow1 li .imgDiv .imgbox img{ width:100%;}
+.culturetow1 li:first-child .imgDiv{ width:auto; float:none;}
+.culturetow1 li:first-child .imgDiv .txt{ line-height:1.5; font-size:18px;}
+.culturetow1 li:first-child .imgDiv .txt h2{ display:block; font-weight:inherit; font-size:16px; color:#fff; padding-top:20px; padding-bottom:10px;}
+.culturetow1 li:first-child .imgDiv .txt p{ position:absolute; left:0; width:100%; text-align:center; top:50%; margin-top:-10px; font-size:14px;}
+.culturetow1 li:last-child .imgDiv{ width:auto; float:none;}
+.culturetow1 li:last-child .imgDiv .txt h2{ display:block; font-weight:inherit; font-size:16px; color:#fff; padding-top:20px; padding-bottom:10px; text-align:center;}
+.culturetow1 li:last-child .imgDiv .txt p{line-height:1.5; font-size:14px; color:#fff; padding:0 10px;}
+.culturetow1 li:nth-child(2) .imgDiv .txt h2{font-size:16px; padding-top:20px; padding-bottom:10px;}
+.culturetow1 li:nth-child(2) .imgDiv .txt p{ font-size:14px; color:#fff; line-height:1.5; padding:0 10px;}
+.culturetow1 li:nth-child(3) .imgDiv{ width:auto; float:none; margin-bottom:10px;}
+.culturetow1 li:nth-child(3) .imgDiv .txt{ text-align:center;}
+.culturetow1 li:nth-child(3) .imgDiv .txt h2{font-size:16px; padding-top:20%; padding-bottom:10px;}
+.culturetow1 li:nth-child(3) .imgDiv .txt p{ font-size:14px; color:#fff; line-height:1.5; padding:0 10px;}
+.culturetow1 li .imgDiv:hover .txt{ top:0;}
+.culturetow1 li .phimg{ display:inline-block;}
+.culturetow1 li .pcimg{ display:none;}
+.cultureshow1 .text{ width:auto; float:none; padding-top:0;}
+.cultureshow1 .text h2{ padding-bottom:20px; font-size:16px;}
+.cultureshow1 .text p{ font-size:14px; line-height:1.5;}
+.cultureshow1 .imgDiv{ padding-left:0;}
+.cultureshow1 .imgDiv img{ width:100%;}
+.cultureshow1 .back{ margin:0 auto; margin-top:40px; display:block; width:160px; height:45px; line-height:45px; text-align:center; font-size:14px; color:#fff; font-weight:bold; background-color:#0a74d6;}
+.cultureshow1 .back img{ padding-left:5px;}
+.cultureshow1 .back:hover{ text-decoration:underline;}
+
+	}
+
+/*：源代码唯一下载地址: https://www.moyublog.com*/

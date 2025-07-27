@@ -1,0 +1,1460 @@
+/*：源码下载唯一地址: https://www.moyublog.com*//*banner*/
+.ind-banner{width: 100%; height: 100vh;overflow: hidden;} 
+.ind-banner .swiper-container{ z-index: 10!important; }
+.ind-banner .swiper-slide {height: 100vh; color: #fff; } 
+.ind-banner .swiper-slide a{ display:block; width:100%; height:100%;}
+.ind-banner .swiper-pagination{  text-align: center; left: 0; width: 100%; bottom: 0.86rem!important; } 
+.ind-banner .swiper-pagination-bullet { opacity: 1!important; width: 12px; height: 12px; text-align: center; background: url(../image/ico1.png) center no-repeat; margin:0 8px!important; } 
+.ind-banner .swiper-pagination-bullet-active { background: url(../image/ico1on.png) center no-repeat;} 
+.ind-banner .swiper-button-prev{ display: none; left: 20px; width: 53px; height: 53px; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg53_left.png) no-repeat; }
+.ind-banner .swiper-button-next{ display: none; right: 20px; width: 53px; height: 53px; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg53_right.png) no-repeat; }
+
+.swiper-pagination-progress { background: rgba(211,211,211,.2)!important; position: absolute;}
+.swiper-pagination-progress .swiper-pagination-progressbar { background: #fff!important; }
+
+.ind-banner .ban1 .bg{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/bg1.png) repeat; position: absolute; z-index: 1; width: 12.0rem; height: 2.58rem; left: 50%; margin-left: -6.0rem; top: 50%; margin-top: -1.29rem;}
+.ind-banner .ban1 .txtDiv{ position: absolute; left: 0; top: 50%; height: 1.76rem; margin-top: -0.88rem; width: 100%; text-align: center; z-index: 2;}
+.ind-banner .ban1 .txt1{font-size: 0.72rem; line-height: 0.72rem; padding-bottom: 0.24rem; color:#fff; position: relative; font-weight: bold; text-transform: uppercase;} 
+.ind-banner .ban1 .txt2{ font-size: 0.48rem; line-height: 0.64rem; color: #fff; font-weight: bold;} 
+.ind-banner .ban1 .txt3{ padding-top: 0.18rem; color: #fff; text-transform: uppercase;}
+.ind-banner .ban2 .txtDiv{ position: absolute; left: 50%; margin-left: -600px; top: 50%; height: 300px; margin-top: -150px;}
+.ind-banner .ban2 .txt1{font-size: 36px; padding-bottom: 25px; color:#fff; position: relative;} 
+.ind-banner .ban2 .txt1 em{ display: block; position: absolute; left: 0px; bottom: 0px; width: 56px; height: 5px; background: #fff;}
+.ind-banner .ban2 .txt2{ font-size: 60px; font-weight: bold; margin-top: 2.5%; color: #fff;
+	background-image: -webkit-linear-gradient(top,#0b6fb8,#42c0fa);
+    background-image: linear-gradient(to bottom,#0b6fb8,#42c0fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;} 
+.ind-banner .ban2 .txt3{ font-size: 30px; color: #fff; margin-top: 2%; text-transform: uppercase;}
+.ind-banner .ban2 .btnDiv{ margin-top: 4.5%; width: 135px; height: 47px; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/btn1.png) no-repeat; text-indent: 26px; color: #fff; font-size: 16px; font-weight: bold; line-height: 47px;}
+.ind-banner .ban2 .robotImg{ position: absolute; right: 50%; bottom: 0; margin-right: -600px; margin-top: 18%;}
+.ind-banner .ban2 .robotImg img{ width: 92%;}
+.ind-banner .ban3 .txtDiv{ position: absolute; left: 0; width: 100%; top: 50%; height: 300px; margin-top: -150px;}
+.ind-banner .ban3 .txt1{font-size: 60px; color:#fff; text-align: center;} 
+.ind-banner .ban3 .txt2{font-size: 26px; padding: 15px 0 40px; color: #fff; text-align: center; text-transform: uppercase;} 
+.ind-banner .ban3 .btnDiv{ margin: 0 auto; color: #298ffd; width: 143px; height: 57px; line-height: 47px; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/btn3.png) no-repeat; text-indent: 26px; font-size: 16px; font-weight: bold; line-height: 47px;}
+.ind-banner .ban4 .txtDiv{ position: absolute; left: 50%; margin-left: -600px; top: 50%; height: 300px; margin-top: -170px;}
+.ind-banner .ban4 .txt1{font-size: 36px; padding-bottom: 25px; color:#0a74c1; position: relative;} 
+.ind-banner .ban4 .txt1 em{ display: block; position: absolute; left: 0px; bottom: 0px; width: 56px; height: 5px; background: #0a74c1;}
+.ind-banner .ban4 .txt2{ font-size: 60px; margin-top: 2.5%; color: #0a74c1;} 
+.ind-banner .ban4 .txt3{ font-size: 30px; color: #3c3c3c; margin-top: 2%;}
+.ind-banner .ban4 .btnDiv{ margin-top: 6.5%; width: 135px; height: 47px; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/btn1.png) no-repeat; text-indent: 26px; color: #fff; font-size: 16px; font-weight: bold; line-height: 47px;}
+.ind-banner .ban4 .robotImg{ position: absolute; right: 50%; bottom: 12%; margin-right: -525px; margin-top: 18%;}
+.ind-banner .ban4 .robotImg img{ width: 100%;}
+
+.ind-banner .scrollBtn{ z-index:15; left:50%; bottom:0.38rem; text-align:center; margin-left:-0.6rem; position:absolute; width:1.2rem; padding-top:0.15rem; height:9px; border-top:#fff solid 1px;}
+
+/*banner??“???*/
+
+.bannerTel{ display: none; }
+.indexFlashTel{position:relative; overflow:hidden; max-width:1004px;}
+.indexFlashTel .slick img{ width:100%;}
+.indexFlashTel .slick-dots{ position:absolute; left:0; text-align: center; width: 100%; bottom:20px;}
+.indexFlashTel .slick-dots li{display:inline-block; margin:0 8px; width:10px; height:10px; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico3.png) no-repeat; }
+.indexFlashTel .slick-dots .slick-active{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico3on.png) no-repeat;}
+
+
+.indexTitle2{ text-align: center; }
+.indexTitle .title1{ font-weight: bold; font-size: .8rem; line-height: 1rem; text-transform: uppercase; color: #ccc; font-family: Arial Black,Arial}
+.indexTitle .title1 span{    color: #0075cf;}
+.indexTitle .title2{ font-size: 0.3rem; line-height: 0.3rem; color: #1e1e1e; padding-top: 0.12rem; }
+
+.indexPart1{ background: #fafafa url(../image/nimg970Bg.png) left bottom no-repeat; background-size: 9.7rem; padding-top: 0.86rem; }
+.indexPart1 .leftDiv{ width: 6.15rem; padding-top: .5rem; }
+.indexPart1 .content{ font-size: 0.13rem; color: #6e6e6e; padding-top: 0.65rem; line-height: 0.36rem; }
+.indexPart1 .btnDiv{ padding-top: 0.9rem; }
+.indexPart1 .btnDiv a{ font-weight: bold; position: relative; font-size: 12px; color: #fff; text-indent: 0.24rem; display: block; width: 1.62rem; height: 0.44rem; line-height: 0.44rem; background: #0075cf; }
+.indexPart1 .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(../image/nimg40_1.png) no-repeat; background-size: 0.4rem;}
+
+.indexPart1 .midDiv{ width: 2.45rem; padding-left: 2.2rem;}
+.indexPart1 .numList{ padding-top: 1rem; }
+.indexPart1 .numList li{ padding-bottom: 0.56rem; }
+.indexPart1 .numList li .ico img{ width: 0.39rem; }
+.indexPart1 .numList li .num{ color: #3a3a3a; padding-top: 10px; }
+.indexPart1 .numList li .num b{ display: inline-block; color: #1c1c1c; font-size: 0.26rem; padding-right: 0.05rem; }
+.indexPart1 .numList li .num em{ font-size: 12px; padding-top: 8px; display: inline-block; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg7_1.png) left top no-repeat; }
+.indexPart1 .numList li .msg{ font-size: 12px; color: #949494;}
+
+.indexPart1 .rightDiv{ width: 6.2rem; height: 7.0rem; background: #0086d6;}
+.indexPart1 .imgDiv{ width: 4.88rem; }
+.indexPart1 .imgDiv img{ width: 4.88rem; }
+.indexPart1 .mxfDiv{ width: 1.32rem; height: 7.0rem; position: relative; }
+.indexPart1 .mxfDiv .lg{ text-align: right; padding: 0.45rem 0.32rem 0 0; }
+.indexPart1 .mxfDiv .more{ z-index: 1; position: absolute; left: 0px; bottom: 0px; width: 100%; height: 1.3rem; background: #0075cf; text-align: center; line-height: 1.3rem; }
+.indexPart1 .mxfDiv .more img{ width: 0.39rem; }
+
+.indexPart2{ padding: 0.95rem 0; position: relative; z-index: 10;}
+.indexPart2 .indexTitle{ padding-bottom: 0.85rem; }
+.indexPart2 .bigBox{ position: relative; padding-bottom: 0.95rem;}
+.indexPart2 .mxfDiv{ position: relative; }
+.indexPart2 .bigImg img{ width: 100%; }
+.indexPart2 .layerDiv{ position: absolute; width: 12.0rem; left: 50%; margin-left: -6.0rem; top: 1.5rem;}
+.indexPart2 .layerDiv .name{ font-size: 0.3rem; color: #fff; text-align: center; height: 0.6rem; position: relative; font-weight: bold;}
+.indexPart2 .layerDiv .name:after{ content: ''; width: 0.4rem; height: 0.04rem; background: #fff; position: absolute; left: 50%; bottom: 0px; margin-left: -0.2rem; }
+.indexPart2 .layerDiv .content{ font-size: 0.14rem; color: #fff; line-height: 0.3rem; padding: 0.5rem 1.85rem 0; text-align: center; height: 1.2rem; overflow: hidden;}
+.indexPart2 .layerDiv .more{ padding-top: 0.35rem; width: 1.62rem; margin: 0 auto; }
+.indexPart2 .layerDiv .more a{ font-weight: bold; color: #fff; position: relative; font-size: 12px; display: block; width: 1.58rem; height: 0.4rem; line-height: 0.4rem; border: #fff solid 0.02rem; text-indent: 0.22rem; }
+.indexPart2 .layerDiv .more a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(../image/nimg40_1.png) no-repeat; background-size: 0.4rem;}
+.indexPart2 .tab2{ position: absolute; left: 50%; bottom: 0; width: 17.0rem; margin-left: -8.5rem; height: 2.1rem;}
+.indexPart2 .tab2 li{ float: left; width: 20%; height: 2.1rem; background: #fbfbfb; text-align: center;}
+.indexPart2 .tab2 .other{ background: #fff; }
+.indexPart2 .tab2 li .ico{ padding: 0.56rem 0 0.18rem; }
+.indexPart2 .tab2 li .ico img{ width: 0.4rem; }
+.indexPart2 .tab2 li .name{ font-weight: bold; font-size: 0.18rem; color: #3f3f3f; }
+.indexPart2 .tab2 li .txt{ font-weight: bold; padding-top: 0.06rem; color: #cacaca; text-transform: uppercase; }
+.indexPart2 .tab2 .liNow{ background: #0075cf; }
+.indexPart2 .tab2 .liNow .name{ color: #fff; }
+.indexPart2 .tab2 .liNow .txt{ color: #a3c2e8; }
+
+.indexPart3{ padding: 0.95rem 0; position: relative;}
+.indexPart3 .leftDiv{ width: 8.86rem; }
+.indexProduct .slick{ padding: 0 1.42rem 1.22rem 0; position: relative;}
+.indexProduct .slick .contentBox{ height: 5.4rem; background: #f6f6f6; }
+.indexProduct .slick .imgDiv{ position: absolute; right: 0px; bottom: 0px; z-index: 2;}
+.indexProduct .slick .imgDiv img{ width: 5.6rem; }
+.indexProduct .slick .name{ padding: 0.8rem 0 0 0.96rem; font-size: 0.36rem; color: #000; height: 0.6rem; line-height: 0.6rem; overflow: hidden; }
+.indexProduct .slick .msg{ padding: 0.2rem 0 0 0.96rem; line-height: 0.3rem; color: #888; height: 1.2rem; overflow: hidden; font-size: 0.16rem; }
+.indexProduct .slick .btnDiv{ padding: 0.3rem 0 0 0.96rem; }
+.indexProduct .slick .btnDiv a{ font-weight: bold; position: relative; font-size: 12px; color: #000; text-indent: 0.24rem; display: block; width: 1.62rem; height: 0.44rem; line-height: 0.44rem; border: #000 solid 1px; }
+.indexProduct .slick .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_7.png) no-repeat; background-size: 0.4rem;}
+.indexProduct .slick-prev{ position: absolute; right: 2.83rem; top: 0.84rem; width: 0.42rem; height: 0.42rem; display: block; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_left.png) no-repeat; background-size: 0.42rem; z-index: 2; }
+.indexProduct .slick-next{ position: absolute; right: 2.17rem; top: 0.84rem; width: 0.42rem; height: 0.42rem; display: block; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_right.png) no-repeat; background-size: 0.42rem; z-index: 2; }
+.indexProduct .slick-prev:hover{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_lefton.png) no-repeat; background-size: 0.42rem;}
+.indexProduct .slick-next:hover{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_righton.png) no-repeat; background-size: 0.42rem;}
+
+.indexPart3 .rightDiv{ width: 5.02rem; }
+.indexPart3 .title{ position: relative; height: 0.75rem; line-height: 0.75rem; color: #fff; background: #0075cf; text-indent: 0.45rem; font-size: 0.3rem; font-weight: bold; }
+.indexPart3 .title a{ position: absolute; right: 0.35rem; top: 0; display: block; }
+.indexPart3 .title img{ width: 0.42rem; }
+
+.indexNews{ height: 6.67rem; background: #f0f0f0; position: relative;}
+.indexNews .slick .imgDiv img{ width: 100%; }
+.indexNews .slick .botDiv{ padding: 0.32rem 0.45rem 0;}
+.indexNews .slick .txt{ font-size: 0.18rem; color: #000; padding-bottom: 0.2rem; }
+.indexNews .slick .name{ height: 0.96rem; line-height: 0.48rem; font-size: 0.32rem; color: #000; overflow: hidden; }
+.indexNews .slick .time{ padding-top: 0.2rem; color: #0075cf; font-size: 0.14rem; }
+.indexNews .slick .more{ padding-top: 0.4rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg107Bg.png) left bottom no-repeat; width: 1.07rem; height: 0.32rem; background-size: 1.07rem;}
+.indexNews .slick .more a{ display: block; line-height: 0.32rem; font-size: 0.14rem; color: #000;  }
+.indexNews .slick-dots{position:absolute; z-index:10; right: 0.75rem; bottom:0.52rem; }
+.indexNews .slick-dots li{ float: left; margin-left: 8px; cursor:pointer; width: 10px; height: 10px; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico2.png) no-repeat;}
+.indexNews .slick-dots .slick-active{  background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico2on.png) no-repeat;}
+
+.indexPart4{ padding-bottom: 1rem;  padding-top:1rem;}
+.indexPart4 .indexTitle{ padding-bottom: 0.85rem; }
+.fourBox{ height: 6.2rem; position: relative; }
+.indexPart4 .leftDiv{ width: 6.51rem; height: 6.2rem; position: relative; z-index: 0; }
+.indexPart4 .leftDiv .layer{ position: absolute; left: 30px; bottom: 1.24rem; }
+.indexPart4 .leftDiv .txt{ font-size: 0.3rem; color: #fff; padding-bottom: 0.3rem; }
+.indexPart4 .leftDiv .msg{ color: #fff; line-height: 0.32rem; font-size: 0.16rem; width: 3.66rem; }
+.indexPart4 .leftDiv .btnDiv{ padding-top: 0.4rem; }
+.indexPart4 .leftDiv .btnDiv a{ font-weight: bold; position: relative; font-size: 12px; color: #fff; text-indent: 0.24rem; display: block; width: 1.62rem; height: 0.44rem; line-height: 0.44rem; border: #fff solid 1px; }
+.indexPart4 .leftDiv .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+
+.indexPart4 .midDiv{ width: 3.98rem; height: 6.2rem; z-index: 2; position: relative; }
+.indexPart4 .midDiv .bg img{ width: 100%; }
+.indexPart4 .midDiv .txt{ position: absolute; left: 1.25rem; top: 0.54rem; }
+.indexPart4 .midDiv .txt p{ width: 0.4rem; text-align: center; color: #fff; line-height: 0.32rem; font-weight: bold; font-size: 0.3rem; }
+.indexPart4 .rightDiv{ width: 6.51rem; height: 6.18rem; z-index: 2; border-top: #f7f7f7 solid 0.02rem;}
+.indexPart4 .rightDiv li{ float: left; width: 50%; }
+.indexPart4 .rightDiv li .box{ height: 3.07rem; border-right: #f7f7f7 solid 0.02rem; border-bottom: #f7f7f7 solid 0.02rem; -webkit-transition:background 400ms; transition:background 400ms;}
+.indexPart4 .rightDiv li a{ display: block; width: 100%; height: 100%; text-align: center; }
+.indexPart4 .rightDiv li .ico{ padding: 1.04rem 0 0.18rem; }
+.indexPart4 .rightDiv li .ico img{ width: 0.54rem; }
+.indexPart4 .rightDiv li .ico .img1{ display: none; }
+.indexPart4 .rightDiv li .name{ font-weight: bold; color: #333; font-size: 0.18rem; }
+.indexPart4 .rightDiv li:hover .box{ background: #0075cf; }
+.indexPart4 .rightDiv li:hover .ico img{ display: none; }
+.indexPart4 .rightDiv li:hover .ico .img1{ display: inline-block; }
+.indexPart4 .rightDiv li:hover .name{ color: #fff; }
+
+.indexPart4 .leftDiv2{ width: 64%; position: relative; }
+.indexPart4 .leftDiv2 .bg img{ width: 100%; }
+.indexPart4 .leftDiv2 .layer{ position: absolute; left: 0.65rem; top: 50%; margin-top: -1.5rem; }
+.indexPart4 .leftDiv2 .txt{ font-size: 0.3rem; color: #fff; padding-bottom: 0.3rem; }
+.indexPart4 .leftDiv2 .msg{ color: #fff; line-height: 0.32rem; font-size: 0.2rem; width: 2.66rem; }
+.indexPart4 .leftDiv2 .btnDiv{ padding-top: 0.36rem; }
+.indexPart4 .leftDiv2 .btnDiv a{ font-weight: bold; position: relative; font-size: 0.2rem; color: #fff; text-indent: 0.24rem; display: block; width: 1.62rem; height: 0.48rem; line-height: 0.48rem; border: #fff solid 1px; }
+.indexPart4 .rightDiv2{ width: 36%; position: relative; }
+.indexPart4 .rightDiv2 .bg img{ width: 100%; }
+.indexPart4 .rightDiv2 .txt{ position: absolute; left: 50%; top: 0.5rem; margin-left: -0.4rem; }
+.indexPart4 .rightDiv2 .txt p{ width: 0.4rem; text-align: center; color: #fff; line-height: 0.32rem; font-weight: bold; font-size: 0.3rem; }
+.indexPart4 .list2{ padding-top: 0.7rem; }
+.indexPart4 .list2 li{ float: left; width: 25%; font-size: 0.18rem; text-align: center; }
+.indexPart4 .list2 li a{ display: block; width: 100%; height: 100%; color: #333; }
+.indexPart4 .list2 li .ico{ padding-bottom: 0.18rem; }
+.indexPart4 .list2 li .ico img{ width: 0.54rem; }
+
+.about{ position: relative; overflow: hidden; }
+.aboutLeft{ background: url(../image/nimg621Bg.jpg) 1.0rem top no-repeat; background-size: 6.21rem; padding-top: 0.65rem; width: 8.7rem; padding-left: 1.0rem; height: 10.0rem; position: relative;}
+.aboutLeft .name{ font-size: 0.22rem; line-height: 0.22rem; color: #3f3f3f; font-weight: bold; padding-bottom: 0.1rem; }
+.aboutLeft .year{ font-size: 0.6rem; line-height: 0.6rem; color: #0075cf; text-transform: uppercase; font-family: medium; }
+.aboutLeft .content{ font-size: 0.14rem; line-height: 0.3rem; color: #828282; padding-top: 0.45rem; }
+.aboutLeft .mxfDiv{ position: absolute; right: 0px; bottom: 0px; height: 3.15rem; width: 8.7rem; background:  url(../image/nimg435Bg.jpg) right bottom no-repeat; background-size: 4.35rem; }
+.aboutLeft .mxfDiv .imgDiv{ width: 5.65rem; }
+.aboutLeft .mxfDiv .imgDiv img{ width: 100%; }
+.aboutLeft .mxfDiv .layer{ position: absolute; right: 0px; width: 2.58rem; top: 0.42rem; }
+.aboutLeft .mxfDiv .txt{ font-size: 0.42rem; color: #fff; opacity: 0.3; font-family: bold; }
+.aboutLeft .mxfDiv .wen{ line-height: 18px; font-size: 12px; color: #fff; opacity: 0.2; }
+.aboutLeft .mxfDiv .msg{ padding-top: 0.2rem; font-size: 0.22rem; color: #fff; line-height: 0.32rem; }
+
+.aboutRight{/* position: absolute; right: 0px; top: 0px;*/ width: 3.78rem; }
+.aboutRight .toptop{ position: relative; }
+.aboutRight .toptop .imgDiv img{ width: 100%; }
+.aboutRight .toptop .layer{ position: absolute; left: 0.72rem; top: 0.62rem; }
+.aboutRight .toptop .txt{ font-size: 0.26rem; padding-top: 0.2rem; position: relative; color: #fff;}
+.aboutRight .toptop .txt:before{ content: ''; position: absolute; left: 0px; top: 0px; width: 0.3rem; height: 0.03rem; background: #fff; opacity: 0.5;}
+.aboutRight .toptop .wen{ padding-top: 0.15rem; color: #fff; opacity: 0.3; font-size: 0.13rem; }
+
+.aboutRight .botbot{ height: 7.3rem; position: relative; background: #eef4fd url(../image/nimg378Bg.jpg) center bottom no-repeat; background-size: 3.78rem;}
+.aboutRight .list{ padding-top: 0.3rem; }
+.aboutRight .list li .box{ border-top-right-radius: 0.3rem; -moz-border-top-right-radius: 0.3rem; border-bottom-right-radius: 0.3rem; -moz-border-bottom-right-radius: 0.3rem; display: inline-block; padding: 0 0.52rem 0 0.54rem; margin-bottom: 0.15rem; height: 0.55rem; background: #dce5f4; line-height: 0.4rem; font-size: 0.14rem; color: #95a8b6; overflow: hidden;    -webkit-transition: background 400ms;
+    transition: background 400ms;}
+.aboutRight .list li em{ font-size: 0.36rem; color: #0075cf; font-family: medium; position: relative; top: 0.08rem; }
+.aboutRight .list li span{ color: #0075cf; font-size: 0.18rem; font-weight: bold; padding-right: 0.13rem; position: relative; top: 0.05rem;}
+.aboutRight .list li:hover .box{ background: #0075cf; color: #a5bbb4; color: #fff;}
+.aboutRight .list li:hover em, .aboutRight .list li:hover span{ color: #fff; }
+
+.speechLeft{ width: 8.7rem; padding-left: 1.0rem; position: relative; padding-bottom: 0.4rem;}
+.speechLeft .name{ font-weight: bold; font-size: 0.24rem; color: #0075cf; padding-bottom: 0.3rem; }
+.speechLeft .content{ font-size: 0.14rem; line-height: 0.3rem; color: #828282;}
+.speechRight{ width: 3.78rem; padding-bottom: 1.1rem; position: relative;}
+.speechRight .mxfDiv{ background: #f5f9fd; }
+.speechRight .mxfDiv .imgDiv img{ width: 3.78rem; }
+.speechRight .mxfDiv .name{ padding: 0.3rem 0 0.05rem 0.38rem; font-size: 0.3rem; color: #0075cf; }
+.speechRight .mxfDiv .wen{ font-size: 0.15rem; color: #828282; padding: 0 0.38rem 0.38rem; }
+.speechRight:after{ content: ''; width: 100%; height: 0.9rem; background: url(../image/nimg10Bg.jpg) repeat; background-size: 0.1rem; position: absolute; left: 0px; bottom: 0px;}
+.speechBot{ padding-left: 1.0rem; }
+.speechBot .mxfDiv{ position: relative; }
+.speechBot .mxfDiv .imgDiv img{ width: 100%; }
+.speechBot .mxfDiv .layer{ position: absolute; left: 1.3rem; top: 1.2rem; }
+.speechBot .mxfDiv .txt{ font-size: 0.48rem; color: #0055bf; }
+.speechBot .mxfDiv .txt img{ padding-left: 0.24rem; width: 0.4rem; }
+.speechBot .mxfDiv .wen{ font-size: 0.36rem; color: #f6c164; }
+.speechBot .content{ padding-top: 0.3rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282;}
+
+.culturePart1{ position: relative;}
+.culturePart1 .leftDiv{ width: 8.66rem; }
+.culturePart1 .mxfDiv{ position: relative; }
+.culturePart1 .mxfDiv .imgDiv img{ width: 100%; }
+.culturePart1 .mxfDiv .layer{ position: absolute; left: 0px; top: 0.75rem; width: 100%;}
+.culturePart1 .mxfDiv .txt{ font-size: 0.3rem; color: #fff; padding-bottom: 0.3rem; text-align: center;}
+.culturePart1 .mxfDiv .msg{ text-align: center; line-height: 0.3rem; color: #fff; font-size: 0.14rem;}
+.culturePart1 .mxfDiv .btnDiv{ margin: 0 auto; padding-top: 0.7rem; width: 1.62rem;}
+.culturePart1 .mxfDiv .btnDiv a{ font-weight: bold; display: block; width: 1.62rem; height: 0.44rem; background: rgba(255,255,255,0.9); line-height: 0.44rem; font-size: 12px; color: #0075cf; text-indent: 0.24rem; }
+.culturePart1 .mxfDiv .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(../image/nimg40_9.png) no-repeat; background-size: 0.4rem;}
+.culturePart1 .rightDiv{ position: absolute; right: 0px; bottom: 0px; width: 2.8rem; }
+.pnjDiv{ width: 2.8rem; position: relative; }
+.pnjDiv .imgDiv img{ width: 100%; }
+.pnjDiv .layer{ position: absolute; left: 0.38rem; top: 0.74rem; } 
+.pnjDiv .txt{ font-size: 0.24rem; color: #7d7d7d; padding-bottom: 0.2rem; }
+.pnjDiv .year{ font-size: 0.48rem; color: #ff9b00; font-family: pingfang; }
+.pnjDiv .wen1{ color: #3daad7; font-size: 0.14rem; line-height: 0.24rem; }
+.pnjDiv .wen2{ color: #3daad7; font-size: 12px; line-height: 0.2rem; font-weight: bold; }
+.pnjDiv .btnDiv{ padding-top: 0.38rem; }
+.pnjDiv .btnDiv a{ display: block; width: 1.1rem; height: 0.38rem; background: #ff9b00; color: #fff; font-size: 0.14rem; text-align: center; line-height: 0.38rem; }
+
+.culturePart2{ background: #fcfcfc; padding: 0.8rem 0 1.15rem; }
+.culturePart2 .bigBox{ padding: 0 8.23rem 0 0.68rem; position: relative; height: 4.58rem; background: #0075cf url(../image/nimg450Bg.jpg) left bottom no-repeat; background-size: 4.5rem; }
+.culturePart2 .imgDiv{ position: absolute; right: 0px; top: 0;}
+.culturePart2 .imgDiv img{ width: 7.5rem; }
+.culturePart2 .txtDiv{ padding: 0.85rem 0 0.2rem; border-bottom: #ff9b00 solid 2px; }
+.culturePart2 .txt1{ font-size: 0.36rem; color: #fff; font-family: medium; }
+.culturePart2 .txt2{ font-size: 0.22rem; color: #fff; font-weight: bold; }
+.culturePart2 .content{ padding-top: 0.2rem; font-size: 0.14rem; line-height: 0.3rem; color: #fff; }
+.culturePart2 .btnDiv{ padding-top: 0.4rem;}
+.culturePart2 .btnDiv a{ position: relative; font-weight: bold; display: block; width: 1.62rem; height: 0.44rem; background: #fff; line-height: 0.44rem; font-size: 12px; color: #0075cf; text-indent: 0.24rem; }
+.culturePart2 .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(../image/nimg40_9.png) no-repeat; background-size: 0.4rem;}
+
+.actTab{ padding-bottom: 0.5rem; }
+.actTab ul{ margin-right: -0.02rem; }
+.actTab li{ float: left; width: 33.33%; }
+.actTab li .box{ margin-right: 0.02rem; }
+.actTab li a{ position: relative; display: block; height: 0.65rem; background: #f0f0f0; font-size: 0.16rem; color: #828282; text-align: center; line-height: 0.65rem; }
+.actTab li a:hover, .actTab li .aNow{ background: #0075cf url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg288Bg.jpg) center no-repeat; background-size: 2.88rem; color: #fff; }
+.actTab li a em{ display: none; content: ''; width: 0.14rem; height: 0.09rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg14_1.png) center no-repeat; background-size: 0.14rem; position: absolute; bottom: -0.09rem; left: 50%; margin-left: -0.07rem; }
+.actTab li a:hover em, .actTab li .aNow em{ display: block; }
+
+.activity{ padding-bottom: 0.47rem; }
+.activity .list ul{ margin-right: -0.23rem; }
+.activity .list li{ float: left; width: 50%; margin-bottom: 0.33rem; }
+.activity .list li .box{ margin-right: 0.23rem; transition:all 0.3s; -moz-transition:all 0.3s; -ms-transition:all 0.3s; -o-transition:all 0.3s; -webkit-transition:all 0.3s; }
+.activity .list li .imgDiv img{ width: 100%; }
+.activity .list li .name{ border: #f2f0ea solid 0.02rem; border-top: none; font-weight: bold; height: 0.9rem; line-height: 0.9rem; padding: 0 0.36rem; font-size: 0.18rem; color: #333; overflow: hidden;}
+.activity .list li:hover .box{ -webkit-box-shadow: 0 10px 30px 0 hsla(230,9%,48%,.2); box-shadow: 0 10px 30px 0 hsla(230,9%,48%,.2); -webkit-transform: translate3d(0, -2px, 0); transform: translate3d(0, -2px, 0);}
+.activity .list li:hover .name{ color: #0075cf; }
+
+.concept .part1{ position: relative; }
+.concept .part1 .mxfDiv{ position: relative; }
+.concept .part1 .mxfDiv .bg img{ width: 100%; }
+.concept .part1 .mxfDiv .layer{ position: absolute; left: 0.75rem; top: 1.1rem; }
+.concept .part1 .mxfDiv .txt{ font-size: 0.24rem; line-height: 0.36rem; color: #fff; }
+.concept .part1 .mxfDiv .wen{ font-size: 0.14rem; color: #fff; opacity: 0.3; padding-top: 0.1rem;}
+
+.sideOne{ position: absolute; right: 0px; bottom: 0; width: 2.8rem;}
+.sideOne .bg img{ width: 100%; }
+.sideOne .layer{ position: absolute; left: 0.28rem; top: 0.7rem; }
+.sideOne .layer .txt{ font-size: 0.4rem; color: #fdcfa0; line-height: 0.36rem; }
+.sideOne .layer .wen{ font-size: 0.16rem; color: #787878; padding-top: 0.2rem; line-height: 0.3rem; }
+
+.concept .part2{ height: 3.07rem; position: relative; }
+.concept .part2 .wen1{ font-size: 0.3rem; color: #333; padding-top: 0.65rem; }
+.concept .part2 .wen2{ font-size: 0.36rem; color: #ecebeb; font-family: medium; text-transform: uppercase; }
+.concept .part2 .content{ padding-top: 0.25rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282;}
+
+.sideTwo{ position: absolute; right: 0px; bottom: 0; width: 2.8rem;}
+.sideTwo .bg img{ width: 100%; }
+.sideTwo .layer{ position: absolute; left: 0.28rem; top: 0.5rem; }
+.sideTwo .layer .txt{ font-family: bold; font-size: 0.48rem; color: #fff; opacity: 0.3; text-transform: uppercase; }
+.sideTwo .layer .wen{ font-size: 12px; color: #fff; opacity: 0.2; line-height: 0.2rem; }
+.sideTwo .layer .hao{ line-height: 0.42rem; font-size: 0.16rem; color: #fff; padding-top: 0.1rem;}
+.sideTwo .layer .hao em{ display: block; font-size: 0.24rem; }
+
+.concept .part3{ height: 3.45rem; position: relative; }
+.concept .part3 .mxfDiv{ position: relative; }
+.concept .part3 .mxfDiv .bg img{ width: 100%; }
+.concept .part3 .mxfDiv .layer{ position: absolute; left: 0.75rem; top: 1.0rem; }
+.concept .part3 .mxfDiv .txt{ font-size: 0.3rem; line-height: 0.36rem; color: #fff; }
+.concept .part3 .mxfDiv .wen{ font-size: 0.14rem; color: #fff; padding-top: 0.1rem;}
+
+.sideThree{ position: absolute; right: 0px; bottom: 0; width: 2.8rem;}
+.sideThree .bg img{ width: 100%; }
+.sideThree .layer{ position: absolute; left: 0.28rem; top: 0.75rem; }
+.sideThree .layer .txt{ font-family: bold; font-size: 0.24rem; color: #fff; }
+.sideThree .layer .wen{ padding-top: 0.25rem; font-size: 0.16rem; color: #fff; line-height: 0.3rem; }
+
+.conceptTel .part1 .mxfDiv{ position: relative; }
+.conceptTel .part1 .mxfDiv .bg img{ width: 100%; }
+.conceptTel .part1 .mxfDiv .layer{ position: absolute; left: 0.75rem; top: 1rem; }
+.conceptTel .part1 .mxfDiv .txt{ font-size: 0.3rem; line-height: 0.42rem; color: #fff; }
+.conceptTel .part1 .mxfDiv .wen{ font-size: 0.18rem; color: #fff; opacity: 0.3; padding-top: 0.1rem;}
+.conceptTel .part2{ position: relative; }
+.conceptTel .part2 .wen1{ font-size: 0.36rem; color: #333; padding-top: 0.65rem; }
+.conceptTel .part2 .wen2{ font-size: 0.42rem; color: #ecebeb; font-family: medium; text-transform: uppercase; }
+.conceptTel .part2 .content{ padding-top: 0.25rem; font-size: 0.24rem; line-height: 0.48rem; color: #828282;}
+.conceptTel .part3{ padding-top: 0.5rem; }
+.conceptTel .part3 .mxfDiv{ position: relative; }
+.conceptTel .part3 .mxfDiv .bg img{ width: 100%; }
+.conceptTel .part3 .mxfDiv .layer{ position: absolute; left: 0.75rem; top: 1.0rem; }
+.conceptTel .part3 .mxfDiv .txt{ font-size: 0.4rem; line-height: 0.46rem; color: #fff; }
+.conceptTel .part3 .mxfDiv .wen{ font-size: 0.18rem; color: #fff; padding-top: 0.1rem;}
+.conceptTel .part4{ position: relative; }
+.conceptTel .part4 .bg img{ width: 100%; }
+.conceptTel .part4 .layer{ position: absolute; left: 0.28rem; top: 0.35rem; }
+.conceptTel .part4 .layer .txt{ font-size: 0.48rem; color: #fdcfa0; line-height: 0.48rem; }
+.conceptTel .part4 .layer .wen{ font-size: 0.22rem; color: #787878; padding-top: 0.1rem; line-height: 0.36rem; }
+.conceptTel .part5 li{ float: left; width: 50%; position: relative;}
+.conceptTel .part5 li .bg img{ width: 100%; }
+.conceptTel .part5 li .layer{ position: absolute; left: 0.28rem; top: 0.5rem; }
+.conceptTel .part5 li .layer .txt{ font-family: bold; font-size: 0.48rem; color: #fff; opacity: 0.3; text-transform: uppercase; }
+.conceptTel .part5 li .layer .wen{ font-size: 0.16rem; color: #fff; opacity: 0.2; line-height: 0.2rem; }
+.conceptTel .part5 li .layer .hao{ line-height: 0.42rem; font-size: 0.18rem; color: #fff; padding-top: 0.1rem;}
+.conceptTel .part5 li .layer .hao em{ display: block; font-size: 0.26rem; }
+.conceptTel .part5 li .txt2{ font-family: bold; font-size: 0.32rem; color: #fff; }
+.conceptTel .part5 li .wen2{ padding-top: 0.25rem; font-size: 0.22rem; color: #fff; line-height: 0.3rem; }
+
+.honor .tab2{ position: relative; padding-bottom: 0.5rem; }
+.honor .tab2:before{ content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 0.03rem; background: #ddd;}
+.honor .tab2 li{ padding-top: 0.15rem; float: left; margin-right: 0.35rem; color: #999; font-size: 0.18rem; font-weight: bold; position: relative; }
+.honor .tab2 li:before{ display: none; content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 0.03rem; background: #0075cf;}
+.honor .tab2 .liNow{ color: #0075cf; }
+.honor .tab2 .liNow:before{ display: block; }
+.honor .year{ font-weight: bold; font-size: 0.18rem; color: #0075cf; padding-left: 0.34rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg23_1.png) left center no-repeat; background-size: 0.23rem;}
+.honor .year em{ font-size: 0.36rem; padding-right: 0.12rem; font-family: bold;}
+.honor .list{ padding-top: 0.45rem; }
+.honor .list li{ padding-left: 0.2rem; padding-bottom: 0.3rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico4.jpg) left 0.12rem no-repeat; color: #828282; line-height: 0.3rem; font-size: 0.14rem;}
+
+.sideCulture{ position: relative; }
+.sideCulture .imgDiv img{ width: 100%; }
+.sideCulture .layer{ position: absolute; left: 0.3rem; top: 0.7rem; } 
+.sideCulture .txt{ font-size: 0.4rem; color: #d2a740; line-height: 0.38rem; padding-bottom: 0.15rem; }
+.sideCulture .wen{ color: #787878; font-size: 0.18rem; line-height: 0.3rem; }
+
+.park{ height: 4.2rem; overflow: hidden;}
+.parkLeft{ width: 8.7rem; padding-left: 1.0rem; padding-top: 0.84rem; height: 3.36rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg870Bg.jpg) right bottom no-repeat; background-size: 8.7rem; }
+.parkLeft .content{ font-size: 0.14rem; line-height: 0.3rem; color: #828282; padding-top: 0.25rem; }
+
+.parkRight{ width: 3.78rem; position: relative;}
+.parkRight .bg img{ width: 100%; }
+.parkRight .layer{ position: absolute; left: 0.4rem; top: 0.82rem; }
+.parkRight .txt{ color: #0075cf; font-size: 0.32rem; font-family: medium; }
+.parkRight .wen{ font-size: 0.14rem; line-height: 0.3rem; color: #828282; padding-top: 0.15rem; }
+
+.parkBox{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/bg2.jpg) left top repeat-x; padding-bottom: 0.8rem;}
+.park2{ overflow: hidden; }
+.parkLeft2{ width: 8.7rem; padding-left: 1.0rem; padding-top: 0.7rem; }
+.parkLeft2 .imgList li{ margin-bottom: 0.32rem; }
+.parkLeft2 .imgList li img{ width: 100%; }
+
+.parkRight2{ width: 3.78rem; position: relative;}
+.parkRight2 .bg img{ width: 100%; }
+.parkRight2 .layer{ position: absolute; left: 0.4rem; top: 0.7rem; }
+.parkRight2 .txt{ color: #0075cf; font-size: 0.4rem; }
+.parkRight2 .wen{ font-size: 0.18rem; color: #787878; padding-top: 0.15rem; }
+.parkRight2 .msg{ font-size: 0.14rem; color: #a0a4ae; opacity: 0.5; padding-top: 0.2rem;}
+
+.partner{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg326Bg.jpg) right top no-repeat; background-size: 3.26rem; }
+.partner .content{ padding: 0.25rem 0 0.55rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282; }
+.partner .list ul{ margin-right: -0.29rem; }
+.partner .list li{ float: left; width: 33.33%; margin-bottom: 0.3rem; }
+.partner .list li .box{ margin-right: 0.29rem; }
+.partner .list li .imgDiv{ border: #eee solid 1px; }
+.partner .list li img{ width: 100%; }
+
+.sideCoo{ position: relative; }
+.sideCoo .imgDiv img{ width: 100%; }
+.sideCoo .layer{ position: absolute; left: 0.3rem; top: 0.7rem; } 
+.sideCoo .txt{ font-size: 0.4rem; color: #fcc67b; line-height: 0.38rem; padding-bottom: 0.15rem; }
+.sideCoo .wen{ color: #787878; font-size: 0.18rem; line-height: 0.3rem; }
+
+.researchPart1{ padding-bottom: 0.65rem; }
+.researchPart1 .content{ padding: 0.25rem 0 0.55rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282; }
+.researchPart1 .mxfDiv{ margin-bottom: 0.75rem; height: 3.15rem; position: relative; padding-left: 6.1rem; background: url(../image/nimg435Bg.jpg) right top no-repeat; background-size: 4.35rem;}
+.researchPart1 .mxfDiv .imgDiv{ position: absolute; left: 0px; top: 0; }
+.researchPart1 .mxfDiv .imgDiv img{ width: 5.66rem; }
+.researchPart1 .mxfDiv .txt{ font-family: medium; font-size: 0.4rem; color: #fff; opacity: 0.3; padding: 0.6rem 0 0.25rem; text-transform: uppercase;}
+.researchPart1 .mxfDiv .msg{ color: #fff; font-size: 0.22rem; line-height: 0.36rem; }
+.researchPart1 .title{ height: 0.4rem; line-height: 0.4rem; padding-left: 0.48rem; color: #333; font-size: 0.24rem; font-weight: bold; position: relative; }
+.researchPart1 .title .num{ position: absolute; left: 0px; top: 50%; margin-top: -0.15rem; width: 0.33rem; height: 0.29rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg33_1.png) center no-repeat; background-size: 0.33rem;}
+.researchPart1 .title .num em{ width: 0.29rem; display: block; text-align: center; line-height: 0.29rem; font-size: 0.14rem; color: #fff; }
+.researchPart1 .bigImg{ padding-top: 0.25rem; }
+.researchPart1 .bigImg img{ width: 12.0rem; }
+
+.sideCompany{ position: relative;}
+.sideCompany .bg img{ width: 100%; }
+.sideCompany .layer{ position: absolute; left: 0.4rem; top: 0.7rem; }
+.sideCompany .txt{ color: #0075cf; font-size: 0.4rem; }
+.sideCompany .wen{ font-size: 0.18rem; color: #787878; padding-top: 0.15rem; }
+.sideCompany .msg{ font-size: 0.14rem; color: #a0a4ae; opacity: 0.5; padding-top: 0.2rem;}
+
+.researchPart2{ padding: 0.8rem 0 0.7rem; background: #f3f2f2; }
+.researchPart2 .list li{ margin-bottom: 0.45rem; position: relative; padding-top: 0.55rem; }
+.researchPart2 .list li .imgDiv{ position: absolute; left: 0.45rem; top: 0px; }
+.researchPart2 .list .li01 .imgDiv{ left: auto; right: 0.45rem; }
+.researchPart2 .list li .imgDiv img{ width: 2.86rem; }
+.researchPart2 .list li .box{ box-shadow: 0 0 15px #ddd; padding: 0 0.45rem 0 3.75rem; background: #fff; height: 3.32rem;}
+.researchPart2 .list .li01 .box{ padding: 0 3.75rem 0 0.45rem; }
+.researchPart2 .list li .mxfDiv{ padding-top: 0.6rem; }
+.researchPart2 .list li .title{ height: 0.4rem; line-height: 0.4rem; padding-left: 0.48rem; color: #333; font-size: 0.24rem; font-weight: bold; position: relative; }
+.researchPart2 .list li .title .num{ position: absolute; left: 0px; top: 50%; margin-top: -0.15rem; width: 0.33rem; height: 0.29rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg33_1.png) center no-repeat; background-size: 0.33rem;}
+.researchPart2 .list li .title .num em{ width: 0.29rem; display: block; text-align: center; line-height: 0.29rem; font-size: 0.14rem; color: #fff; }
+.researchPart2 .list li .content{ font-size: 0.14rem; line-height: 0.3rem; color: #828282; padding-top: 0.25rem; }
+
+.researchPart3{ padding: 0.45rem 0 0.9rem; }
+.researchPart3 .title{ height: 0.4rem; line-height: 0.4rem; padding-left: 0.48rem; color: #333; font-size: 0.24rem; font-weight: bold; position: relative; }
+.researchPart3 .title .num{ position: absolute; left: 0px; top: 50%; margin-top: -0.15rem; width: 0.33rem; height: 0.29rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg33_1.png) center no-repeat; background-size: 0.33rem;}
+.researchPart3 .title .num em{ width: 0.29rem; display: block; text-align: center; line-height: 0.29rem; font-size: 0.14rem; color: #fff; }
+.researchPart3 .list{ padding-top: 0.35rem; }
+.researchPart3 .list li{ padding-left: 0.28rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282; padding-bottom: 0.45rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico2on.png) left 0.1rem no-repeat; background-size: 0.1rem; }
+
+.making .content{ padding: 0.15rem 0 0.35rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282; }
+.making .bigImg img{ width: 100%; }
+.making .imgList{ padding-top: 0.1rem; }
+.making .imgList ul{ margin-right: -0.08rem; }
+.making .imgList li{ float: left; width: 50%; }
+.making .imgList li .box{ margin-right: 0.08rem; }
+.making .imgList li img{ width: 100%; }
+
+
+.making .part1 .name{ color:#333; font-size:0.3rem; line-height:0.5rem; padding:0.5rem 0 0.3rem; font-weight:bold;}
+.making .part1 .content{ font-size:0.14rem; color:#828282;}
+.making .part2{ background: #f7f7f7;}
+.making .part2 .leftDiv{ width:50%; padding-top:0.9rem;}
+.making .part2 .txt{ padding-left:0.42rem; font-size:0.24rem; color:#3f3f3f; position:relative; height:0.46rem; line-height:0.46rem;}
+.making .part2 .txt img{ position:absolute; left:0; top:0.1rem; width:0.25rem;}
+.making .part2 .txt em{ font-size:0.14rem; color:#cdcdcd; padding-left:0.2rem;}
+.making .part2 .content{ font-size:0.14rem; color:#828282; line-height:0.32rem; padding:0.35rem 0.4rem 0 0;}
+.making .part2 .rightImg{ width:50%;}
+.making .part2 .rightImg img{ width:100%;}
+.making .part3{ padding-bottom:2.3rem;}
+.making .part3 .rightDiv{ width:50%; padding-top:1.2rem;}
+.making .part3 .txt{ padding-left:0.42rem; font-size:0.24rem; color:#3f3f3f; position:relative; height:0.46rem; line-height:0.46rem;}
+.making .part3 .txt img{ position:absolute; left:0; top:0.1rem; width:0.25rem;}
+.making .part3 .txt em{ font-size:0.14rem; color:#cdcdcd; padding-left:0.2rem;}
+.making .part3 .content{ font-size:0.14rem; color:#828282; line-height:0.32rem; padding-top:0.1rem;}
+.making .part3 .mxfDiv{ padding-left:0.7rem;}
+.making .part3 .leftImg{ width:50%;}
+.making .part3 .leftImg img{ width:100%;}
+
+.news .imgList li{ height: 2.8rem; position: relative; padding-left: 3.62rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/line1.jpg) left bottom repeat-x; }
+.news .imgList li:last-child{ background: none; }
+.news .imgList li .imgDiv{ position: absolute; left: 0px; top: 0.36rem; }
+.news .imgList li .imgDiv img{ width: 3.24rem; }
+.news .imgList li .name{ padding-top: 0.75rem; height: 0.3rem; line-height: 0.3rem; overflow: hidden; font-size: 0.18rem; font-weight: bold; }
+.news .imgList li .name a{ color: #333; display: block; }
+.news .imgList li .name a:hover{ color: #0075cf; }
+.news .imgList li .content{ font-size: 0.14rem; color: #828282; height: 0.48rem; line-height: 0.24rem; overflow: hidden; padding-top: 0.15rem; }
+.news .imgList li .botbot{ padding-top: 0.25rem; overflow: hidden; position: relative;}
+.news .imgList li .share dd{ float: left; margin-right: 0.17rem;}
+.news .imgList li .share dd a{ color: #ccc; display: block; font-size: 0.14rem; font-weight: bold;}
+.news .imgList li .share dd img{ padding-right: 0.07rem; width: 0.19rem;}
+.news .imgList li .time{ position: absolute; right: 0px; top: 0.25rem; color: #c9c9c9; font-weight: bold; font-size: 0.14rem; }
+.news .list{ padding-bottom: 1.05rem; }
+.news .list li{ height: 1.6rem; border-bottom: #e9e9e9 dashed 1px; position: relative; padding-top: 0.34rem; }
+.news .list li .name{ height: 0.3rem; line-height: 0.3rem; overflow: hidden; font-size: 0.18rem; font-weight: bold; }
+.news .list li .name a{ color: #333; display: block; margin-left:5px; }
+.news .list li .name a:hover{ color: #0075cf; }
+.news .list li .content{ font-size: 0.14rem; color: #828282; height: 0.48rem; line-height: 0.24rem; overflow: hidden; padding-top: 0.15rem; }
+.news .list li .botbot{ padding-top: 0.25rem; overflow: hidden; position: relative;}
+.news .list li .share dd{ float: left; margin-right: 0.17rem;}
+.news .list li .share dd a{ color: #ccc; display: block; font-size: 0.14rem; font-weight: bold; margin-left:5px;}
+.news .list li .share dd img{ padding-right: 0.07rem; width: 0.19rem; }
+.news .list li .time{ position: absolute; right: 0px; top: 0.25rem; color: #c9c9c9; font-weight: bold; font-size: 0.14rem; }
+.news .list li:hover{ background: #fafafa; }
+
+.sideSearch .botDiv{ padding: 0.6rem 0.34rem 0.8rem; background: #f7f7f7;}
+.sideSearch .form .box{ padding-bottom: 0.15rem; }
+.sideSearch .form .box .txt{ font-weight: bold; font-size: 0.18rem; color: #b6b8ba; padding-bottom: 0.16rem; }
+.sideSearch .select{ background: #fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg18_1.jpg) 0.1rem center no-repeat; background-size: 0.18rem; border: #f0f0f0 solid 0.02rem; position: relative; height: 0.4rem;}
+.sideSearch .select dt{height: 0.4rem;line-height: 0.4rem;display: inline-block; width: 100%; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/selectIco.jpg) no-repeat right center; cursor: pointer;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;position: relative;z-index: 5;}
+.sideSearch .select dt a{  font-size: 0.14rem;color: #b4b4b4; position: relative; padding-left: 0.4rem; display: block; text-align: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;} 
+.sideSearch .select dd{ margin: 0;position: absolute;left: 0px;top: 0.4rem; z-index: 10; width: 100%;} 
+.sideSearch .select dd ul {list-style: none; overflow: auto; padding: 0 0.2rem;background: #fff;} 
+.sideSearch .select dd ul li{line-height: 0.4rem; height: 0.4rem; cursor: pointer; border-bottom: 1px solid #ebebeb; color: #b4b4b4; font-size: 0.14rem;}
+.sideSearch .select dd ul li:hover{ color: #000; }
+.sideSearch .llbox{ height: 0.4rem; background: #fff; position: relative; border: #f0f0f0 solid 0.02rem; }
+.sideSearch .input1{ width: 100%; height: 0.4rem; line-height: 0.4rem; font-size: 0.14rem; color: #b4b4b4; text-indent: 0.2rem; }
+.sideSearch .btn1{ position: absolute; right: 0px; top: 0px; width: 0.28rem; height: 0.4rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg14_2.png) left no-repeat; z-index: 2;}
+.jgdtcDiv{ padding: 0.36rem 0.46rem 1.1rem; background: #f8f8f8 url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg280Bg2.jpg) center bottom no-repeat; background-size: 2.8rem;}
+.sideSearch .month{ font-size: 0.48rem; color: #0075cf; line-height: 0.48rem; font-family: bold; padding-bottom: 0.1rem;}
+.sideSearch .time em{ display: block; width: 21px; height: 2px; background: #0075cf; margin-bottom: 10px; }
+.sideSearch .year{ padding: 0.13rem 0; font-size: 0.18rem; font-weight: bold; color: #808080; }
+.sideSearch .p{ font-size: 0.14rem; line-height: 0.24rem; margin-right: -0.22rem; color: #7f7e7e; }
+.sideSearch .p a{ color: #000; }
+.sideSearch .share{ padding-top: 22px; padding-bottom: 52px; }
+.sideSearch .share{ overflow: hidden; }
+.sideSearch .share li{ float: left; margin: 0 0.14rem 0 0; }
+.sideSearch .share li img{ width: 0.41rem; }
+.sideSearch .share li .img1{ display: none; }
+.sideSearch .share li:hover img{ display: none; }
+.sideSearch .share li:hover .img1{ display: inline-block; }
+.sideSearch .h6{ font-weight: bold; font-size: 0.2rem; color: #333; padding-bottom: 0.24rem; border-bottom: 1px solid #d3d3d3; }
+.sideSearch .list{ padding-top: 0.35rem; }
+.sideSearch .list li{ padding-bottom: 0.2rem; font-size: 0.14rem; line-height: 0.24rem; }
+.sideSearch .list li a{ display: block; color: #868282;}
+.sideSearch .list li a:hover{ color: #0075cf; }
+
+.newShow{ padding-bottom: 50px;}
+.newShow .name{ font-size: 0.28rem; color: #333; padding-bottom: 0.2rem; font-weight: bold; }
+.newShow .shu{ padding-bottom: 0.45rem; border-bottom: #f3f3f3 solid 1px;}
+.newShow .shu li{ color: #ccc; float: left; margin-right: 0.2rem; font-size: 0.14rem; font-weight: bold;}
+.newShow .shu li img{ padding-right: 0.07rem; width: 0.19rem; }
+.newShow .content{ padding-top: 0.45rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282; }
+.newShow .imgDiv{ padding: 0.4rem 0; text-align: center;}
+.newShow .wen{ font-size: 0.18rem; color: #393939; padding: 0.3rem 0;}
+.newShow .imgDiv img{ max-width: 7.8rem; }
+.newShow .content img{ max-width: 7.8rem; }
+
+.pageDown{ border-top: #eee solid 1px; padding: 0.4rem 0 0.7rem; overflow: hidden;}
+.pageDown li{ font-size: 0.14rem; height: 0.3rem; line-height: 0.3rem; overflow: hidden;}
+.pageDown li b{ color: #444; }
+.pageDown li a{ color: #8b9195; }
+.pageDown li a:hover{ color: #0075cf; }
+
+.pageBtn ul{ margin-right: -0.75rem; }
+.pageBtn li{ float: left; width: 33.33%; font-size: 0.14rem; }
+.pageBtn li .box{ margin-right: 0.75rem; }
+.pageBtn li a{ color: #777; display: block; height: 0.5rem; line-height: 0.5rem; background: #fff; box-shadow: 0 0 10px #ddd; border-radius: 0.24rem; -moz-border-radius: 0.24rem; }
+.pageBtn li .prev{ text-indent: 1.1rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg8_left.png) 0.6rem center no-repeat; }
+.pageBtn li .return{ text-indent: 0.86rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg9_1.png) 0.64rem center no-repeat; }
+.pageBtn li .next{ text-indent: 0.63rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg8_right.png) 1.48rem center no-repeat; }
+.pageBtn li a:hover{ color: #0075cf; }
+.pageBtn li .prev:hover{ background: #fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg8_lefton.png) 0.6rem center no-repeat;}
+.pageBtn li .return:hover{ background: #fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg9_1on.png) 0.64rem center no-repeat;}
+.pageBtn li .next:hover{ background: #fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg8_righton.png) 1.48rem center no-repeat;}
+
+.purpose .content{ padding: 0.1rem 0 0.2rem; font-size: 0.14rem; line-height: 0.3rem; color: #828282; }
+.purpose .mxfDiv{ position: relative; }
+.purpose .mxfDiv .bg img{ width: 100%; }
+.purpose .mxfDiv .layer{ position: absolute; left: 0.6rem; top: 0.85rem; }
+.purpose .mxfDiv .txt{ font-size: 0.48rem; color: #0075cf; font-family: medium; text-transform: uppercase; }
+.purpose .mxfDiv .wen{ font-size: 0.3rem; color: #0075cf; line-height: 0.48rem; }
+
+.sideCulture .bg img{ width: 100%; }
+.sideCulture .layer{ position: absolute; left: 0.28rem; top: 0.7rem; }
+.sideCulture .layer .txt{ font-size: 0.4rem; color: #fdcfa0; line-height: 0.36rem;}
+.sideCulture .layer .wen{ font-size: 0.16rem; color: #787878; padding-top: 0.2rem; line-height: 0.3rem; }
+
+.service .part1{ overflow: hidden; }
+.service .leftDiv{ width: 4.8rem; }
+.service .msgList{ padding-top: 0.5rem; }
+.service .msgList li{ font-size: 0.15rem; line-height: 0.32rem; color: #828282; }
+.service .mapDiv{ width: 6.3rem; }
+.service .mapDiv img{ width: 100%; }
+.service .part2{ padding-top: 0.2rem; }
+.service .titleDiv{ padding-top: 0.45rem; }
+.service .title{ height: 0.62rem; background: #0075cf; font-size: 0.18rem; padding-left: 0.4rem; color: #fff; font-weight: bold; line-height: 0.62rem; }
+.service .list{ border-bottom: #efefef solid 1px; }
+.service .list li{ padding: 0.4rem 0; width: 50%; float: left; }
+.service .list li .box{ padding-left: 0.4rem; }
+.service .list li .name1{ font-size: 0.18rem; color: #181818; line-height: 0.36rem; }
+.service .list li .name2{ color: #0075cf; font-size: 12px; text-transform: uppercase; padding-bottom: 0.2rem; }
+.service .list dd{ font-size: 0.14rem; color: #828282; line-height: 0.24rem; }
+.service .list li .btn{ display: block; padding-top: 0.2rem; color: #0075cf; font-size: 0.14rem;}
+.service .list li .btn img{ width: 0.15rem; padding-right: 0.12rem; }
+.service .list li .btn:hover{ text-decoration: underline; }
+
+.lyb .part1{ height: 2.5rem; background: url(../image/nimg442Bg.jpg) right top no-repeat; background-size: 4.42rem; }
+.lyb .part1 .msg{ font-size: 0.14rem; padding-top: 0.5rem; }
+.lyb .part2{ background: #f5f5f5; padding: 0.68rem 0.45rem 0.9rem; }
+.lyb .form_l{ width: 4.6rem; }
+.lyb .form_l li{ height: 0.6rem; position: relative; padding-left: 1.32rem; }
+.lyb .form_l li .txt{ position: absolute; left: 0px; top: 0px; width: 1.0rem; text-align: right; font-size: 0.14rem; line-height: 0.4rem; color: #5b5b5b; }
+.lyb .form_l li .txt em{ color: #ff0000; }
+.lyb .form_l li .txt img{ position: absolute; left: 0px; top: 50%; margin-top: -0.08rem; width: 0.17rem; }
+.lyb .form_l li .input1{ width: 100%; height: 0.4rem; background: #fff; line-height: 0.4rem; border-radius: 0.04rem; font-size: 0.14rem; text-indent: 0.1rem; }
+.lyb .form_r{ width: 5.4rem; }
+.lyb .form_r .txt{ position: relative; width: 1.0rem; text-align: right; font-size: 0.14rem; line-height: 0.4rem; color: #5b5b5b; height: 0.55rem;}
+.lyb .form_r .txt img{ position: absolute; left: 0px; top: 0.12rem; width: 0.17rem; }
+.lyb .form_r textarea{ width: 100%; height: 1.65rem; background: #fff; }
+.lyb .form_r .btnGroup{ padding-top: 0.24rem; }
+.lyb .form_r .btnGroup li{ float: left; margin-right: 0.35rem; }
+.lyb .form_r .btnGroup a{ display: block; width: 0.96rem; height: 0.3rem; text-align: center; line-height: 0.3rem; border: #00b8fa solid 1px; color: #0075cf; font-size: 0.14rem; border-radius: 0.24rem; }
+.lyb .form_r .btnGroup a:hover{ border: #0075cf solid 1px; background: #0075cf; color: #fff; }
+
+
+
+.led1{ padding-bottom:55px;}
+.led1 .text{ font-size:16px; color:#7b7b7b; line-height:1.5; padding-top:20px;}
+.led1 .more a{ margin:0 auto; margin-top:30px; display:block; width:300px; height:60px; text-align:center; line-height:60px; font-size:18px; color:#fff; background-color:#1fb6eb; border-radius:4px;}
+.led1 .more a img{ padding-left:30px;}
+.led1 .more a:hover{ text-decoration:underline;}
+.led2{ background-color:#f6f6f6; padding-top:80px; padding-bottom:60px;}
+.led2 .content{ background-color:#fff;}
+.led2 .imgDiv{ float:left; overflow:hidden;}
+.led2 .imgDiv:hover img{ opacity:0.5; transition:all 0.5s; -webkit-transition:all 0.5s;}
+.led2 .text{ float:left; width:350px; padding:51px; font-size:16px; color:#595959; line-height:1.5;}
+.led2 .text .look{ font-size:12px; color:#8e8e8e; border:1px #a5a5a5 solid; width:110px; height:30px; line-height:30px; text-align:center; display:block; margin-top:40px;}
+.led2 .text .look:hover{ background-color:#0075cf; color:#fff; border:1px #0075cf solid;}
+.led2 h1{ font-weight:inherit; font-size:30px; color:#000; padding-bottom:50px;}
+.led3{ padding:75px 0;}
+.led3 .wal1160{ background-color:#f6f6f6;}
+.led3 .text{ float:left; width:350px; padding:30px; font-size:16px; color:#595959; line-height:1.5;}
+.led3 .text .look{ font-size:12px; color:#8e8e8e; border:1px #a5a5a5 solid; width:110px; height:30px; line-height:30px; text-align:center; display:block; margin-top:40px;}
+.led3 .text .look:hover{ background-color:#0075cf; color:#fff; border:1px #0075cf solid;}
+.led3 .imgDiv{ float:right; width:727px;}
+.led3 .imgDiv:hover img{ opacity:0.5; transition:all 0.5s; -webkit-transition:all 0.5s;}
+.led4{ padding:75px 0; background-color:#f6f6f6;}
+.led4 .wal1160{ background-color:#fff;}
+.led4 .text{ float:left; width:350px; padding:30px; font-size:16px; color:#595959; line-height:1.5;}
+.led4 .text .look{ font-size:12px; color:#8e8e8e; border:1px #a5a5a5 solid; width:110px; height:30px; line-height:30px; text-align:center; display:block; margin-top:40px;}
+.led4 .text .look:hover{ background-color:#0075cf; color:#fff; border:1px #0075cf solid;}
+.led4 .imgDiv{ float:left; width:727px;}
+.led4 .imgDiv:hover img{ opacity:0.5; transition:all 0.5s; -webkit-transition:all 0.5s;}
+.led5{ padding-top:80px;}
+.led5 .wal1160{ background-color:#f6f6f6;}
+.led5 .imgDiv{ float:left; overflow:hidden;}
+.led5 .imgDiv:hover img{ opacity:0.5; transition:all 0.5s; -webkit-transition:all 0.5s;}
+.led5 .text{ float:left; width:350px; padding:42px; font-size:16px; color:#595959; line-height:1.5;}
+.led5 .text .look{ font-size:12px; color:#8e8e8e; border:1px #a5a5a5 solid; width:110px; height:30px; line-height:30px; text-align:center; display:block; margin-top:40px;}
+.led5 .text .look:hover{ background-color:#0075cf; color:#fff; border:1px #0075cf solid;}
+.led .phimg{ display:none;}
+.ledlogoph{ display:none;}
+
+
+.sideJob{ position: relative; }
+.sideJob .bg img{ width: 100%; }
+.sideJob .layer{ position: absolute; left: 0.28rem; top: 0.7rem; }
+.sideJob .layer .txt{ font-size: 0.4rem; color: #f6c18a; line-height: 0.36rem;}
+.sideJob .layer .wen{ font-size: 0.16rem; color: #f6830c; padding-top: 0.2rem; line-height: 0.3rem; }
+
+.join{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg971Bg.jpg) right 0.9rem no-repeat; background-size: 8.7rem;}
+.join .pageTitle{ padding-bottom: 0.5rem;}
+.join .txt{ font-size: 0.18rem; color: #0075cf; font-weight: bold; padding-bottom: 0.2rem;}
+.join .txt img{ padding-left: 0.18rem; width: 0.4rem; }
+.join .list{ padding-bottom: 0.8rem; }
+.join .list li{ padding-left: 0.25rem; color: #828282; line-height: 0.3rem; font-size: 0.14rem; background: url(../image/nimg10_2.png) left 0.12rem no-repeat; background-size: 0.1rem;}
+.join .imgList ul{ margin-right: -0.18rem; }
+.join .imgList li{ float: left; width: 50%; }
+.join .imgList li .box{ margin-right: 0.18rem; position: relative; }
+.join .imgList li .imgDiv img{ width: 100%; }
+.join .imgList li .layer{ position: absolute; left: 0px; top: 50%; margin-top: -0.4rem; height: 0.8rem; width: 100%; text-align: center;}
+    .join .imgList li .layer a {
+    color:#fff;
+    }
+.join .imgList li .name{ color: #fff; font-size: 0.24rem;  }
+.join .imgList li .name img{ padding-right: 0.08rem; width: 0.32rem; position: relative; top: -0.05rem; }
+.join .imgList li .wen{ text-transform: uppercase; font-size: 0.18rem; color: #fff; padding-top: 0.15rem; }
+
+.download .list{ padding: 0.35rem 0 0.8rem; }
+.download .list li{ margin-bottom: 0.22rem; padding-left: 0.4rem; height: 0.75rem; background: #f8f8f8; position: relative; transition:all 0.3s; -moz-transition:all 0.3s; -ms-transition:all 0.3s; -o-transition:all 0.3s; -webkit-transition:all 0.3s;}
+.download .list li .name{ padding-left: 0.18rem; font-size: 0.16rem; position: relative; line-height: 0.75rem;}
+.download .list li .name:before{ content: ''; position: absolute; width: 0.08rem; height: 0.08rem; background: #0075cf; top: 50%; margin-top: -0.04rem; left: 0; }
+.download .list li .time{ position: absolute; left: 4.65rem; color: #afafaf; font-size: 0.14rem; top: 0px; line-height: 0.75rem; }
+.download .list li .more{ position: absolute; right: 0.46rem; top: 50%; margin-top: -0.19rem; }
+.download .list li .more img{ width: 0.38rem; }
+.download .list li .more .img1{ display: none; }
+.download .list li:hover{ -webkit-box-shadow: 0 10px 30px 0 hsla(230,9%,48%,.2); box-shadow: 0 10px 30px 0 hsla(230,9%,48%,.2);}
+.download .list li:hover .name{ color: #0075cf; font-weight: bold; }
+.download .list li:hover .more img{ display: none; }
+.download .list li:hover .more .img1{ display: inline-block; }
+
+.car .part1{ padding-top: 0.3rem; }
+.car .toptop{ min-height: 4.14rem; position: relative; padding-left: 6.74rem; }
+.car .toptop .imgDiv{ position: absolute; left: 0px; top: 0px; }
+.car .toptop .imgDiv img{ width: 6.0rem; }
+.car .toptop .txt{ padding-top: 0.55rem; position: relative; height: 0.5rem; color: #0075cf; font-size: 0.24rem; font-weight: bold; }
+.car .toptop .txt:after{ content: ''; width: 0.26rem; height: 0.03rem; position: absolute; left: 0px; bottom: 0; background: #0075cf; }
+.car .toptop .content{ font-size: 0.14rem; color: #828282; padding-top: 0.55rem; line-height: 0.3rem; }
+.car .botbot{ overflow: hidden; }
+.car .botbot .leftDiv{ width: 6.0rem;position: relative;}
+.car .botbot .leftDiv .bg img{ width: 100%; }
+.car .botbot .leftDiv .layer{ position: absolute; left: 0.72rem; top: 0.5rem; }
+.car .botbot .leftDiv .txt{ color: #fff; font-size: 0.3rem; line-height: 0.36rem; text-transform: uppercase; font-family: medium; }
+.car .botbot .leftDiv .wen{ padding-top: 0.1rem; color: #fff; font-size: 0.3rem; font-weight: bold;}
+.car .botbot .leftDiv .msg{ font-size: 0.14rem; opacity: 0.3; color: #7fc4f9; padding-top: 0.2rem; }
+.car .botbot .imgDiv{ width: 6.0rem; }
+.car .botbot .imgDiv img{ width: 100%; }
+.car .list{ padding-top: 0.48rem; }
+.car .list ul{ margin-right: -0.18rem; }
+.car .list li{ float: left; width: 25%; }
+.car .list li .box{ margin-right: 0.18rem; height: 3.58rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg290Bg.jpg) center no-repeat; background-size: 2.9rem; }
+.car .list li .ico{ padding: 0.68rem 0 0.32rem; text-align: center; }
+.car .list li .ico img{ width: 0.66rem; }
+.car .list li .name{ text-align: center; font-size: 0.16rem; color: #363636; font-weight: bold; padding-bottom: 0.25rem; }
+.car .list li .msg{ padding: 0 0.42rem; }
+.car .list li .msg p{ line-height: 0.24rem; color: #a0a1a1; }
+
+.automotive .content{ font-size: 0.14rem; padding: 0.3rem 0 0.35rem; line-height: 0.3rem; color: #828282; }
+.automotive .mxfDiv{ position: relative; }
+.automotive .mxfDiv .bigImg img{ width: 100%; }
+.automotive .mxfDiv .btnDiv{ position: absolute; left: 50%; bottom: 0.46rem; width: 1.9rem; margin-left: -0.85rem; }
+.automotive .mxfDiv .btnDiv a{ position: relative; font-size: 12px; color: #fff; text-indent: 0.21rem; display: block; width: 1.86rem; height: 0.4rem; line-height: 0.4rem; border: #fff solid 0.02rem; }
+.automotive .mxfDiv .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+.automotive .list{ padding-top: 0.9rem; }
+.automotive .list li{ position: relative; overflow: hidden; margin-bottom: 0.8rem;  }
+.automotive .list li .imgDiv{ width: 6.0rem; }
+.automotive .list li .imgDiv img{ width: 100%; }
+.automotive .list li .contentBox{ width: 6.0rem; position: relative; height: 4.1rem; }
+.automotive .list li .name{ padding-top: 0.45rem; text-align: center; font-size: 0.3rem; color: #3f3f3f; position: relative; height: 0.52rem; }
+.automotive .list li .name:after{ content: ''; position: absolute; background: #0075cf; width: 0.26rem; height: 0.03rem; left: 50%; margin-left: -0.13rem; bottom: 0px;  }
+.automotive .list li .txt{ text-align: center; padding-top: 0.5rem; font-size: 0.18rem; color: #0075cf; font-weight: bold; line-height: 0.32rem; }
+.automotive .list li .msg{ text-align: center; color: #868686; line-height: 0.32rem; font-size: 0.18rem; }
+.automotive .list li .btnDiv{ position: absolute; left: 50%; bottom: 0.78rem; width: 1.67rem; margin-left: -0.83rem; }
+.automotive .list li .btnDiv a{ position: relative; font-size: 0.14rem; color: #0075cf; text-indent: 0.23rem; display: block; width: 1.65rem; height: 0.44rem; line-height: 0.44rem; border: #0075cf solid 0.01rem; }
+.automotive .list li .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(../image/nimg40_9.png) no-repeat; background-size: 0.4rem;}
+.automotive .list li .btnDiv a:hover{ background: #0075cf; color: #fff; }
+.automotive .list li .btnDiv a:hover:after{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+
+.battery .content{ font-size: 0.14rem; padding: 0.3rem 0 0.35rem; line-height: 0.3rem; color: #828282; }
+.battery .mxfDiv{ position: relative; }
+.battery .mxfDiv .bigImg img{ width: 100%; }
+.battery .mxfDiv .btnDiv{ position: absolute; left: 50%; bottom: 0.46rem; width: 1.9rem; margin-left: -0.85rem; }
+.battery .mxfDiv .btnDiv a{ position: relative; font-size: 12px; color: #fff; text-indent: 0.21rem; display: block; width: 1.86rem; height: 0.4rem; line-height: 0.4rem; border: #fff solid 0.02rem; }
+.battery .mxfDiv .btnDiv a:after{ content: ''; position: absolute; right: 0.13rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+.battery .title{ margin-bottom: 0.35rem; padding-top: 0.8rem; text-align: center; font-size: 0.3rem; color: #3f3f3f; position: relative; height: 0.52rem; }
+.battery .title:after{ content: ''; position: absolute; background: #0075cf; width: 0.26rem; height: 0.03rem; left: 50%; margin-left: -0.13rem; bottom: 0px;  }
+.batteryPic{ position: relative; }
+.batteryPic .slick{ margin: 0 0.16rem; }
+.batteryPic .slick .imgDiv img{ width: 100%; }
+.batteryPic .slick .botbot{ padding-top: 0.42rem; height: 1.0rem; border-bottom: #ececec solid 0.02rem; }
+.batteryPic .slick .name{ font-size: 0.18rem; color: #333; text-align: center; height: 0.3rem; line-height: 0.3rem; overflow: hidden; font-weight: bold; }
+.batteryPic .slick .msg{ font-size: 0.14rem; color: #666; text-align: center; padding-top: 0.15rem; }
+.batteryPic .slick-prev{ position: absolute; left: -0.8rem; top: 50%; margin-top: -0.62rem; width: 0.42rem; height: 0.42rem; display: block; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_left.png) no-repeat; background-size: 0.42rem; z-index: 2; }
+.batteryPic .slick-next{ position: absolute; right:-0.8rem; top: 50%; margin-top: -0.62rem; width: 0.42rem; height: 0.42rem; display: block; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_right.png) no-repeat; background-size: 0.42rem; z-index: 2; }
+.batteryPic .slick-prev:hover{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_lefton.png) no-repeat; background-size: 0.42rem;}
+.batteryPic .slick-next:hover{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_righton.png) no-repeat; background-size: 0.42rem;}
+.batteryPic .slick:hover .name{ color: #0075cf; }
+.batteryPic .slick:hover .botbot{ border-bottom: #0075cf solid 0.02rem; }
+
+.battery .list li{ position: relative; padding-left: 6.1rem; min-height: 4.0rem; margin-bottom: 0.55rem; }
+.battery .list .li01{ padding: 0 6.5rem 0 0; }
+.battery .list li .imgDiv{ position: absolute; left: 0px; top: 0px; }
+.battery .list .li01 .imgDiv{ left: auto; right: 0px; }
+.battery .list li .imgDiv img{ width: 5.65rem; }
+.battery .list li .concon{ height: 4.0rem; display: table-cell; vertical-align: middle; }
+.battery .list li .name{ font-size: 0.24rem; color: #0a74d6; font-weight: bold; padding: 0 0 0.45rem 0.16rem; }
+.battery .list li .txt{ font-weight: bold; font-size: 0.16rem; color: #333; padding-left: 0.16rem; line-height: 0.36rem; }
+.battery .list li dd{ padding-left: 0.16rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico5.png) left 0.13rem no-repeat; background-size: 0.06rem; line-height: 0.36rem; font-size: 0.14rem; color: #828282;}
+
+.equipment .content{ font-size: 0.14rem; padding: 0.3rem 0 0.35rem; line-height: 0.3rem; color: #828282; }
+.equipment .mxfDiv{ position: relative; }
+.equipment .mxfDiv .bigImg img{ width: 100%; }
+.equipment .mxfDiv .btnDiv{ position: absolute; left: 50%; bottom: 0.46rem; width: 1.9rem; margin-left: -0.85rem; }
+.equipment .mxfDiv .btnDiv a{ position: relative; font-size: 12px; color: #fff; text-indent: 0.21rem; display: block; width: 1.86rem; height: 0.4rem; line-height: 0.4rem; border: #fff solid 0.02rem; }
+.equipment .mxfDiv .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+
+.equipBox li{ padding: 0.56rem 0 0.68rem; background: #fafafa; }
+.equipBox .li01{ background: #fff; }
+.equipBox li .title{ margin-bottom: 0.35rem; text-align: center; font-size: 0.3rem; color: #3f3f3f; position: relative; height: 0.52rem; }
+.equipBox li .title:after{ content: ''; position: absolute; background: #0075cf; width: 0.26rem; height: 0.03rem; left: 50%; margin-left: -0.13rem; bottom: 0px;  }
+.equipBox li .imgBox{ overflow: hidden; }
+.equipBox li .limg img{ width: 8.0rem; }
+.equipBox li .rimg img{ width: 4.0rem; }
+
+.hardware .content{ font-size: 0.14rem; padding: 0.3rem 0 0.35rem; line-height: 0.3rem; color: #828282; }
+.hardware .mxfDiv{ position: relative; }
+.hardware .mxfDiv .bigImg img{ width: 100%; }
+.hardware .mxfDiv .btnDiv{ position: absolute; left: 50%; bottom: 0.46rem; width: 1.9rem; margin-left: -0.85rem; }
+.hardware .mxfDiv .btnDiv a{ position: relative; font-size: 12px; color: #fff; text-indent: 0.21rem; display: block; width: 1.86rem; height: 0.4rem; line-height: 0.4rem; border: #fff solid 0.02rem; }
+.hardware .mxfDiv .btnDiv a:after{ content: ''; position: absolute; right: 0.13rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+.hardware .list{ padding-top: 0.6rem; }
+.hardware .list li{ position: relative; padding-left: 6.3rem; min-height: 4.0rem; margin-bottom: 0.5rem; }
+.hardware .list .li01{ padding: 0 6.5rem 0 0.55rem; }
+.hardware .list li .imgDiv{ position: absolute; left: 0px; top: 0px; }
+.hardware .list .li01 .imgDiv{ left: auto; right: 0px; }
+.hardware .list li .imgDiv img{ width: 5.7rem; }
+.hardware .list li .contentBox{ height: 3.6rem;  }
+.hardware .list li .name{ font-size: 0.24rem; color: #0a74d6; font-weight: bold; padding: 0.3rem 0 0.55rem; }
+.hardware .list li .name2{ padding: 0.3rem 0 0.25rem;}
+.hardware .list li .icoList dd{ float: left; width: 0.9rem; margin-right: 0.2rem; text-align: center; }
+.hardware .list li .icoList dd .ico img{ width: 0.8rem; }
+.hardware .list li .icoList dd .wen{ padding-top: 0.2rem; color: #333; font-size: 0.14rem; }
+.hardware .list li .msgList dd{ padding-left: 0.16rem; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/ico5.png) left 0.13rem no-repeat; background-size: 0.06rem; line-height: 0.3rem; font-size: 0.14rem; color: #333;}
+.hardware .list li .btnDiv{ padding-top: 0.5rem; }
+.hardware .list li .btnDiv a{ font-weight: bold; position: relative; font-size: 0.12rem; color: #0075cf; text-indent: 0.23rem; display: block; width: 1.65rem; height: 0.44rem; line-height: 0.44rem; border: #0075cf solid 0.01rem; }
+.hardware .list li .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(../image/nimg40_9.png) no-repeat; background-size: 0.4rem;}
+.hardware .list li .btnDiv a:hover{ background: #0075cf; color: #fff; }
+.hardware .list li .btnDiv a:hover:after{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg40_10.png) no-repeat; background-size: 0.4rem;}
+
+.historyBox{ padding-top: 0.3rem; }
+.historyBg{ height:0.85rem;}
+.historyList{ height:0.85rem; background:url(https://www.moyublog.com/2021/7/umuhs10688/images/bg3.jpg) left 0.47rem repeat-x; padding:0 1.05rem;}
+.historyList .slick-slide{ text-align:center; padding-top: 0.5rem; height:0.35rem; font-size:0.3rem; cursor:pointer; color:#666; background:url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg18_2.png) center top no-repeat; background-size: 0.18rem; font-family: bold;}
+.historyList .slickon{ color:#0075cf; background:url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg18_2on.png) center top no-repeat; background-size: 0.18rem;}
+.historyBox .slick-prev{position:absolute; z-index:10; left:0.6rem; top:50%; margin-top:-0.15rem; display:block; background:#fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_left.png) left top no-repeat; width:0.42rem; height:0.42rem; background-size: 0.42rem;}
+.historyBox .slick-next{position:absolute; z-index:10; right:0.6rem; top:50%; margin-top:-0.15rem; display:block; background:#fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_right.png) right top no-repeat; width:0.42rem; height:0.42rem; background-size: 0.42rem;}
+.historyBox .slick-prev:hover{ background:#fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_lefton.png) left top no-repeat; background-size: 0.42rem;}
+.historyBox .slick-next:hover{ background:#fff url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg42_righton.png) left top no-repeat; background-size: 0.42rem;}
+.historyContentDiv{ padding-top: 1.0rem; }
+.historyContent{ display:none;}
+.history .contentBox{ padding-top:0.6rem; background:url(https://www.moyublog.com/2021/7/umuhs10688/images/line4.jpg) 0.04rem repeat-y;}
+.history .contentBox li{ padding-left:1.3rem; min-height:1.0rem; padding-bottom:20px; position:relative;}
+.history .contentBox li .month{ color: #fff; width:1.11rem; height:0.3rem; background:url(https://www.moyublog.com/2021/7/umuhs10688/images/nimg111_1.png) no-repeat; background-size: 1.11rem; font-size:0.16rem; text-indent: 0.54rem; line-height:0.3rem; position:absolute; left:0px; top:0px;}
+.history .contentBox li .content{ font-size:0.14rem; color: #828282; line-height:0.3rem; padding-bottom:0.15rem;}
+
+
+
+
+/*?oo???èμ??o?-?¤???????è??*/
+.jobPage1{ margin: -24px 0 0; padding:  0 0 120px; }
+.jobPage1 .title4{ margin: 0 0 108px; }
+.jobList{  }
+.job {
+margin-top:100px;}
+.job .job-select-box{margin-bottom: 50px; float: right;} 
+.job .job-select-box .AllSearchIco {display: inline-block;  font-size: 16px;color: #fff; background: #0092D7;border-radius: 1px;width: 60px; height: 43px;  line-height: 43px;text-align: center; margin-left: 12px;vertical-align: middle;margin-top: -2px;}
+.job .job-select-box .AllSearchIco{margin-left: 40px;}
+.job .job-select-box .search{ background-size: 24px; display: inline-block; } 
+.job .job-select-box .search i{font-size: 14px; color: #666; font-style: normal; line-height: 45px; display: inline-block; margin-right: 10px; } 
+.job .job-select-box .search input{width: 244px;height: 45px;line-height: 45px;border: 1px solid #ebebeb;padding: 0 15px;font-size: 14px;color: #333;} 
+.job .job-select-box .search a{display: inline-block; width: 50px; height: 45px; margin-top: -45px; margin-left: 236px; position: absolute; }
+.jobList li{ position: relative; background: #f3f3f3; padding: 38px 0 46px; margin-bottom: 42px; transition: .5s; overflow: hidden; }
+.jobList li:last-child{ margin-bottom: 0; }
+.jobList li .bottom{ position: absolute; width: 58px; height: 56px; bottom: 5px; right: 0; background: url(https://www.moyublog.com/2021/7/umuhs10688/images/plus.png) no-repeat center; }
+.jobList li .tit{ position: absolute; left: 40px; top: 38px; height: 64px; width: 180px; border-right: 1px solid #dadada;font-size: 24px; font-weight: bold; color: #000000; }
+.jobList li .tit em{ width: 19px; height: 3px; background: #000000; display: block; margin-top: 14px; }
+.jobList li .text{ padding: 0 60px 0 306px; line-height: 28px; }
+.jobList li .text .h6{ font-size: 18px; color: #000000; font-weight: bold; }
+.jobList li .con2{ display: none; }
+.jobList li.on .bottom{ background: url(https://www.moyublog.com/2021/7/umuhs10688/images/reduce.png) no-repeat center; }
+.jobList li.on .tit{ color: #0092D7; }
+.jobList li.on .tit em{ background: #0092D7; }
+.jobList li.on .minor{ padding: 0 34px 0 22px; background: #0092D7; color: #FFFFFF; display: inline-block; margin-top: 44px; }
+.jobPage1 .numberBox{ margin-top: 94px; }
+
+
+
+
+
+
+
+
+.culturetitle{ font-size:24px; color:#333; padding-bottom:40px;}
+.culturetow1 li .imgDiv{ position:relative; overflow:hidden;}
+.culturetow1 li .txt{ position:absolute; left:0; top:-100%; width:100%; height:100%; background-color:rgba(0,0,0,0.5); transition:ease 0.5s; -webkit-transition:ease 0.5s;}
+.culturetow1 li:first-child .text{ width:288px; float:left; background-color:#f5f5f5; height:307px; text-align:center; line-height:307px; font-size:24px; color:#0075cf;}
+.culturetow1 li:first-child .text:hover{background-color:#0075cf; color:#fff;}
+.culturetow1 li:first-child .imgDiv{ width:872px; float:right;}
+.culturetow1 li:first-child .imgDiv .txt{text-align:center; line-height:307px; font-size:24px; color:#fff;}
+.culturetow1 li:first-child .imgDiv .txt h2{ display:none;}
+.culturetow1 li:last-child .text{ width:288px; float:right; background-color:#f5f5f5; height:307px; text-align:center; line-height:307px; font-size:24px; color:#0075cf;}
+.culturetow1 li:last-child .text:hover{background-color:#004a90; color:#fff;}
+.culturetow1 li:last-child .imgDiv{ width:872px; float:left;}
+.culturetow1 li:last-child .imgDiv .txt h2{ display:none;}
+.culturetow1 li:last-child .imgDiv .txt p{line-height:1.5; font-size:14px; color:#fff; padding:90px;}
+.culturetow1 li .name{ position:absolute; left:0; width:100%; text-align:center; font-size:24px; color:#fff; top:50%; margin-top:-10px;}
+.culturetow1 li:nth-child(2) .imgDiv .txt h2{font-size:24px; color:#fff; text-align:center; font-weight:inherit; padding-top:100px; padding-bottom:40px;}
+.culturetow1 li:nth-child(2) .imgDiv .txt p{ font-size:14px; color:#fff; line-height:2; padding:0 115px;}
+.culturetow1 li:nth-child(3) .imgDiv{ width:50%; float:left;}
+.culturetow1 li:nth-child(3) .imgDiv .txt{ text-align:center;}
+.culturetow1 li:nth-child(3) .imgDiv .txt h2{font-size:24px; color:#fff; text-align:center; font-weight:inherit; padding-top:100px; padding-bottom:40px;}
+.culturetow1 li:nth-child(3) .imgDiv .txt p{ font-size:14px; color:#fff; line-height:2; }
+.culturetow1 li .imgDiv:hover .name{ display:none;}
+.culturetow1 li .imgDiv:hover .txt{ top:0;}
+.culturetow1 li .phimg{ display:none;}
+
+.cultureshow1 .text{ width:370px; float:left; padding-top:50px;}
+.cultureshow1 .text h2{ font-size:18px; color:#0075cf; padding-bottom:30px;}
+.cultureshow1 .text p{ font-size:16px; color:#444; line-height:30px;}
+.cultureshow1 .imgDiv{ padding-left:410px;}
+.cultureshow1 .back{ margin:0 auto; margin-top:40px; display:block; width:160px; height:45px; line-height:45px; text-align:center; font-size:14px; color:#fff; font-weight:bold; background-color:#0a74d6;}
+.cultureshow1 .back img{ padding-left:5px;}
+.cultureshow1 .back:hover{ text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+.carshow1 .listtop{ padding-bottom:50px; margin-bottom:50px; border-bottom:1px #c6c6c6 solid;}
+.carshow1 .listtop li{ width:50%; float:left;}
+.carshow1 .listtop li .imgDiv>img{ width:100%;}
+.carshow1 .listtop li .text01{ padding-right:50px;}
+.carshow1 .listtop li .text01 h2{ font-size:36px; font-weight:inherit; padding-bottom:50px; color:#0075cf;}
+.carshow1 .listtop li .text01 p{ font-size:16px; color:#707070; line-height:2;}
+.carshow1 .listtop li .text02{ padding:50px; background-color:#0075cf; color:#fff; height:160px;}
+.carshow1 .listtop li .text02 h2{ font-size:30px;}
+.carshow1 .listtop li .text02 p{ font-size:24px; }
+.carshow1 .list ul{ width:1180px;}
+.carshow1 .list li{ width:50%; float:left; margin-bottom:20px;}
+.carshow1 .list li .imgDiv img{ width:100%; transition:ease 3s; -webkit-transition:ease 3s;}
+.carshow1 .list li .box{ position:relative; margin-right:20px; overflow:hidden;}
+.carshow1 .list li .name{ position:absolute; left:0; bottom:0; width:100%; background-color:rgba(0,0,0,0.6); height:55px; line-height:55px; text-align:center; color:#fff; font-size:24px; transition:ease 0.3s; -webkit-transition:ease 0.3s;}
+.carshow1 .list li .name a{ color:#fff;}
+.carshow1 .list li .text{ position:absolute; left:0; top:-100%; width:100%; height:100%;background-color:rgba(0,117,207,0.8); transition:ease 0.3s; -webkit-transition:ease 0.3s;}
+.carshow1 .list li .text a{ display:block; color:#fff; padding:35px;}
+.carshow1 .list li .text h2{ font-weight:inherit; font-size:24px; padding-bottom:30px; text-align:center; padding-top:40px;}
+.carshow1 .list li .text p{ font-size:14px; color:#fff; line-height:1.5;}
+.carshow1 .list li .box:hover .name{ bottom:-100%;}
+.carshow1 .list li .box:hover .text{ top:0;}
+.carshow1 .list li .box:hover .imgDiv img{ transform:scale(1.2); -webkit-transform:scale(1.2);}
+
+
+
+.youshii {
+    position: relative;
+    height: 100%;
+    min-height: 600px;
+}
+.anli_xiejiao {
+    width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    padding-bottom: 100px;
+}
+.lanbei{
+	    width: 90%;
+    height: 500px;
+    background: #0075cf;
+    transform: skew(-20deg);
+    position: absolute;
+    right: -15%;
+    top: -100px;
+}
+.anli_xiejiao .content {
+    position: relative;
+    width: 33%;
+    float: left;
+}
+.anli_xiejiao li{
+	position: relative;
+    width: 33%;
+    float: left;
+}
+.anli_xiejiao li .tu {
+    transform: skew(-20deg);
+    overflow: hidden;
+    height: 560px;
+    width: 360px;
+}
+.anli_xiejiao li .tu a img {
+		transform: skew(20deg);
+		transition: all 1s;
+		width: 585px !important;
+		height: 561px;
+		position: absolute;
+		left: 50%;
+		margin-left: -290px;
+		transition: all 0.7s ease-in-out;
+	}
+.anli_xiejiao .wenzi {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 26px;
+}
+.anli_xiejiao .wenzi a{
+	color: #fff;
+}
+.anli_xiejiao .wenzi a span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+}
+.anli_xiejiao .heidi {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 999;
+    transition: all 0.7s ease-in-out;
+}
+.anli_xiejiao li:hover .tu a img{
+	transform: skew(20deg);
+	transition: all 1s;
+	width: 585px !important;
+	height: 561px;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	transition: all 0.7s ease-in-out;
+}
+.anli_xiejiao li:hover .heidi {
+		background: rgba(0, 102, 153, 0.5);
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		z-index: 999;
+		transition: all 0.7s ease-in-out;
+	}
+.oushili{
+	    min-height:220px;
+	    position: relative;
+}
+.oushili h3 {
+  color: #0075cf;
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+    font-weight: 600;
+    letter-spacing: 10px;
+    position: relative;
+}
+.oushili h3:after {
+    position: absolute;
+    width: 72px;
+    height: 3px;
+    background: #0075cf;
+    content: "";
+    left: 200px;
+    top: 25px;
+}
+.oushili b {
+    color: #ccc;
+    font-family: Arial Black,Arial;
+        font-size: .8rem;
+    line-height: 1rem;
+    position: absolute;
+    right: 0px;
+    top: -30px;
+}
+.oushili b span {
+    color: #0075cf;
+}
+.oushili p {
+    color: #666;
+    width: 500px;
+    padding-top: 20px;
+    font-size: 0.13rem;
+        line-height: 0.36rem;
+}
+.indexPart2 .wal{ position: relative;}
+.huihui {
+    background: #f6f6f6;
+    width: 100%;
+    height: 400px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 0;
+}
+.index-nav{ min-width: 600px;}
+.index-nav li{ float: left; margin-bottom: 20px;  padding: 0 .15rem; margin-top: .5rem;}
+.index-nav li a{ color: #707070; display: block;font-size: .15rem; background: #eee; padding: .15rem .3rem; }
+.index-nav li a:hover{ color: #fff; background: #0075cf;}
+.bg{
+	background: url(../image/prodia.jpg);
+	    background-repeat: no-repeat;
+    background-position: top center;
+}
+/* ---- sick arrow style start ----*/
+.blog-item{ margin-right: 15px;}
+.blog-item img{ width: 100%;}
+.blog-item figure {
+    background: none;
+  
+    display: block;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
+    border: 1px #cecece solid;
+    margin: 0;
+}
+.blog-item figure mark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 117, 207, 0.2);
+    background: #0075cf\9;
+    filter: alpha(opacity=20);
+    z-index: 20;
+    opacity: 0;
+    transform: skewX(45deg);
+    visibility: hidden;
+    transition: 360ms;
+}
+.blog-item figure mark:before {
+    content: "";
+    width: 100%;
+    height: 0%;
+    border-left: 3px solid #0075cf;
+    border-right: 3px solid #0075cf;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 320ms;
+}
+.blog-item figure mark:after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    border-top: 3px solid #0075cf;
+    border-bottom: 3px solid #0075cf;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 320ms;
+}
+.blog-item figure mark b {
+    display: block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -23px;
+    margin-top: -23px;
+    z-index: 30;
+}
+.blog-item figure mark b:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background:#0075cf;
+    position: absolute;
+    left: 0;
+    top: 23px;
+    transform: translateX(-200px);
+    -webkit-transform: translateX(-200px);
+    -moz-transform: translateX(-200px);
+}
+.blog-item figure mark b:after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #0075cf;
+    position: absolute;
+    left: 23px;
+    top: 0;
+    transform: translateY(-200px);
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+}
+.blog-item:hover figure mark {
+	opacity: 1;
+	transform: skewX(0);
+	visibility: visible;
+}
+
+.blog-item:hover figure mark:before {
+	height: 100%;
+	transition: 330ms 200ms;
+}
+
+.blog-item:hover figure mark:after {
+	width: 100%;
+	transition: 330ms 200ms;
+}
+
+.blog-item:hover figure img {
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+}
+
+.blog-item:hover figure mark b:before {
+	transition: 355ms 180ms;
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+}
+
+.blog-item:hover figure mark b:after {
+	transition: 355ms 240ms;
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+}
+
+.blog-item:hover figcaption {
+	color: #0075cf;
+}
+.blog-item figcaption {
+    display: block;
+    color: #5d5d5d;
+    font-size: .16rem;
+    line-height: normal;
+    margin-top: 20px;
+    transition: 350ms;
+    text-align: center;
+}
+.slick-arrow-style.slick-slider .slick-arrow {
+    top: -68px;
+    right: 15px;
+    width: 46px;
+    height: 46px;
+    color: #333c4a;
+    font-size: 24px;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    background-color: #ddd;
+    line-height: 46px;
+    border: 0;
+}
+
+.slick-arrow-style.slick-slider .slick-arrow.slick-prev {
+    right: 68px;
+}
+
+.slick-arrow-style.slick-slider .slick-arrow.slick-prev i {
+    padding-right: 2px;
+    display: block;
+}
+
+.slick-arrow-style.slick-slider .slick-arrow.slick-next i {
+    padding-left: 2px;
+    display: block;
+}
+
+.slick-arrow-style.slick-slider .slick-arrow:hover {
+    color: #ffffff;
+    background-color: #0075cf;
+}
+
+.slick-arrow-style.slick-slider.arrow-top .slick-arrow {
+    top: -55px;
+}
+
+.slick-padding .slick-list {
+    margin: 0 -15px;
+}
+
+.slick-padding .slick-list .slick-slide {
+    margin: 0 15px;
+}
+
+.slick-padding2 .slick-list {
+    margin: 0 -5px;
+}
+
+.slick-padding2 .slick-list .slick-slide {
+    margin: 0 5px;
+}
+.news_swiper li{ position: relative; height: 490px;}
+.news_swiper li:before{ content: ""; display: block; width:1px; height: 100%;background: #e3e3e3; position: absolute; right: -40px; top: 0;}
+.news_swiper li a{ display: block; width: 100%; height: 100%;}
+.news_swiper li .imgbox{ width: 100%; position: relative; margin-bottom: 20px;  height: 250px; padding-bottom: 40px; position: relative;  overflow: hidden; transition: ease .6s;}
+.news_swiper li .imgbox:before{ content: ""; z-index: 1; display: block; width: 0; height: 2px; background: #f70401; position: absolute; left: 0; bottom: 0; transition: ease 1s}
+.news_swiper li:hover .imgbox:before{ width: 100%;}
+.news_swiper li .imgbg{ position: absolute; left: 0; top: 0; height: 290px; width: 100%;    transition: ease 1s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.news_swiper li:hover .imgbox{ padding-bottom: 0;}
+.news_swiper li:hover .imgbg{ transform: scale(1.05,1.05);}
+.news_swiper li h3{ font-size: 16px;line-height: 24px; height: 48px;}
+.news_swiper li h4{ color: #999999; line-height: 24px; height: 72px; margin: 20px 0; font-weight: normal;}
+
+.news_swiper li .time{ padding-left: 25px;  color: #999; background: url(../image/time.png) no-repeat left center; font-size: .16rem;}
+.news_swiper li:hover h3{ color: #f70401;}
+.indexPart3 .swiper-pagination{ margin-top: 50px; text-align: center; width: 100%; position: relative;}
+.indexPart3 .swiper-pagination span{    margin: 0 5px;}
+.ellipsis3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ellipsis2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.part3-left{ width: 50%; float: left;}
+.part3-left h3{
+	color: #0075cf;
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+    font-weight: 600;
+    letter-spacing: 10px;
+    position: relative;
+}
+.part3-left h3:after {
+    position: absolute;
+    width: 72px;
+    height: 3px;
+    background: #0075cf;
+    content: "";
+    left: 280px;
+    top: 25px;}
+.part3-left h4 {
+    color: #ccc;
+    font-family: Arial Black,Arial;
+    font-size: .8rem;
+}
+.part3-left h4 span{
+	color: #0075cf;
+}
+.part3-left p {
+    color: #666;
+    width: 500px;
+    padding-top: 20px;
+    font-size: 0.13rem;
+    line-height: 0.36rem;
+}
+.part3-right{ width: 50%; float: right;}
+.part3-right img{ width: 100%;}
+.bg1{ background: url(../image/part1.jpg);}
+.part3-left .btnDiv{ margin-top: .5rem;}
+.part3-left .btnDiv a{ font-weight: bold; position: relative; font-size: 12px; color: #fff; text-indent: 0.24rem; display: block; width: 1.62rem; height: 0.44rem; line-height: 0.44rem; background: #0075cf; }
+.part3-left .btnDiv a:after{ content: ''; position: absolute; right: 0.25rem; top: 0.14rem; width: 0.4rem; height: 0.09rem; background: url(../image/nimg40_1.png) no-repeat; background-size: 0.4rem;}
+.indexTitle .title1:hover{ color: #f70502;}
+.oushili b:hover{ color: #f70502;}
+.part3-left h4:hover{ color: #f70502;}
+@keyframes mymaps
+{
+0% {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  }
+50% {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity:0.5;
+  }
+  100%{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity:0;
+  }
+}
+
+@-moz-keyframes mymaps /* Firefox */
+{
+0% {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  }
+50% {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity:0.5;
+  }
+  100%{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity:0;
+  }
+}
+
+@-webkit-keyframes mymaps /* Safari and Chrome */
+{
+0% {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  }
+50% {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity:0.5;
+  }
+  100%{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity:0;
+  }
+}
+
+@-o-keyframes mymaps /* Opera */
+{
+0% {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  }
+50% {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity:0.5;
+  }
+  100%{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity:0;
+  }
+}
+/*：源码下载唯一地址: https://www.moyublog.com*/
